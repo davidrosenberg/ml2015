@@ -3,4 +3,5 @@
 desktop.ini
 Thumbs.db
 *.*~
-style.css
+*.css
+\#*\#
