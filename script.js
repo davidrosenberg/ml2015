@@ -33,8 +33,6 @@
             }
         });
 
-        // Don't scroll the user when setting the hash; it's more for link-sharing purposes.
-        window.location.hash = minSectionId;
-        document.body.scrollTop = document.documentElement.scrollTop = bodyScrollTop;
+        history.replaceState(undefined, undefined, '#' + minSectionId);
     }
 }());
