@@ -4,7 +4,8 @@
 <title>Machine Learning and Computational Statistics, Spring 2015</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <link rel="stylesheet" href="styles/style.css">
-<link rel="stylesheet" media="only screen and (max-width: 400px)" href="styles/mobile.css">
+<link rel="stylesheet" media="only screen and (max-width: 1100px)" href="styles/tablet-and-phone.css">
+<link rel="stylesheet" media="only screen and (max-width: 400px)" href="styles/phone.css">
 
 <nav>
     <a href="#home">Home</a>
@@ -95,7 +96,7 @@
 <section id="lectures">
     <h1>Lectures</h1>
 
-    <section>
+    <section class="module">
         <h1>Week 1</h1>
 
         <section class="lecture">
@@ -104,10 +105,10 @@
             </section>
             <section class="topics">
                 <ul>
-                    <li>course mechanics
-                    <li>statistical learning theory framework
-                    <li>gradient and stochastic gradient descent
-                    <li>convexity
+                    <li>Course mechanics
+                    <li>Statistical learning theory framework
+                    <li>Gradient and stochastic gradient descent
+                    <li>Convexity
                 </ul>
             </section>
             <div class="icon book"></div>
@@ -120,15 +121,15 @@
 
                 <h1>Supplementary:</h1>
                 <ul>
-                    <li><a href="refs/bottou-sgd-tricks-2012.pdf>Bottou's SGD Tricks"</a>
-                    <li>BV Preface, Ch 1
-                </ul>
-            </section>
+                    <li><a href="refs/bottou-sgd-tricks-2012.pdf">Bottou's SGD Tricks</a>
+		    <li>BV Preface, Ch 1
+		</ul>
+	    </section>
             <div class="icon pencil"></div>
             <section class="slides">
                 <h1>Slides and Notes</h1>
                 <ul>
-                    <li><a href="slides-and-notes/week1-slides.pdf">Week 1 Slides</a>
+                    <li><a href="slides-and-notes/week1-slides.pdf">Lab 1 Notes</a>
                     <li><a href="ps1.pdf">SGD Convergence Proof</a>
                 </ul>
             </section>
@@ -140,10 +141,76 @@
             </section>
             <section class="topics">
                 <ul>
-                    <li>course mechanics
-                    <li>statistical learning theory framework
-                    <li>gradient and stochastic gradient descent
-                    <li>convexity
+                    <li>Matrix differentiation
+                    <li>Closed form for regularized least squares
+                </ul>
+            </section>
+            <div class="icon book"></div>
+            <section class="reading">
+                <h1>Reading</h1>
+                <h1>Supplementary:</h1>
+                <ul>
+                    <li><a href="refs/matrixCookbook-15Nov2012.pdf">The Matrix Cookbook</a>
+                </ul>
+            </section>
+            <div class="icon pencil"></div>
+            <section class="slides">
+                <h1>Slides and Notes</h1>
+                <ul>
+                    <li><a href="slides-and-notes/week1-slides.pdf">Week 1 Slides</a>
+                    <li><a href="ps1.pdf">SGD Convergence Proof</a>
+                </ul>
+            </section>
+        </section>
+    </section>
+
+    <section class="module">
+        <h1>Week 2</h1>
+
+        <section class="lecture">
+            <section>
+                <h1>Lecture<span class="date">Jan 28</span></h1>
+            </section>
+            <section class="topics">
+                <ul>
+                    <li>Excess risk decomposition
+                    <li>L1/L2 regularization
+                    <li>Loss functions
+                    <li>Methods for Lasso
+                </ul>
+            </section>
+            <div class="icon book"></div>
+            <section class="reading">
+                <h1>Reading</h1>
+                <h1>Pre:</h1>
+                <ul>
+                    <li>Chapter 1 of Murphy
+                </ul>
+
+                <h1>Supplementary:</h1>
+                <ul>
+                    <li><a href="refs/bottou-sgd-tricks-2012.pdf">Bottou's SGD Tricks</a>
+		    <li>BV Preface, Ch 1
+		</ul>
+	    </section>
+            <div class="icon pencil"></div>
+            <section class="slides">
+                <h1>Slides and Notes</h1>
+                <ul>
+                    <li><a href="slides-and-notes/week1-slides.pdf">Lab 1 Notes</a>
+                    <li><a href="ps1.pdf">SGD Convergence Proof</a>
+                </ul>
+            </section>
+        </section>
+
+        <section class="lab">
+            <section>
+                <h1>Lab<span class="date">Jan 29</span></h1>
+            </section>
+            <section class="topics">
+                <ul>
+                    <li>Matrix differentiation
+                    <li>Closed form for regularized least squares
                 </ul>
             </section>
             <div class="icon book"></div>
@@ -170,6 +237,7 @@
             </section>
         </section>
     </section>
+
 </section>
 <section id="assignments">
     <h1>Assignments</h1>

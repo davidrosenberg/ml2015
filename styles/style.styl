@@ -87,18 +87,6 @@ p
   &:last-of-type
     margin-bottom: 0
 
-.flex-container
-  display: flex
-
-  section
-    flex-direction: row
-    flex: 1 1 auto
-
-    margin-right: 40px
-
-    &:last-child
-      margin-right: 0
-
 .module
   background: white
   border-radius: 8px
@@ -294,6 +282,7 @@ body > section
 #lectures > section
   display: table
   width: 100%
+  margin-bottom: 20px
 
   .date
     display: block
@@ -309,6 +298,7 @@ body > section
       font-family: "Glyphicons Halflings"
       color: accent
       font-size: 40px
+      opacity: 0.4
 
     &.book::before
       {icon-book}
@@ -321,7 +311,7 @@ body > section
 
     > section
       display: table-cell
-      padding: 0 20px 40px 0
+      padding: 0 20px 20px 0
       vertical-align: top
 
       &:first-of-type
@@ -330,8 +320,12 @@ body > section
       > h1
         margin-bottom: 10px
 
+      > ul
+        margin-bottom: 15px
+
 #people
   > section.multiple-people ul
+    display: -webkit-flex
     display: flex
 
   ul
@@ -339,6 +333,7 @@ body > section
 
   .person
     min-height: 200px
+    display: -webkit-flex
     display: flex
 
     > img
@@ -346,6 +341,7 @@ body > section
       width: 150px
       height: 150px
       border-radius: 8px
+      -webkit-flex: 0 0 auto
       flex: 0 0 auto
 
     > .info

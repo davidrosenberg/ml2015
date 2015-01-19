@@ -33,6 +33,10 @@
             }
         });
 
-        history.replaceState(undefined, undefined, '#' + minSectionId);
+        // Don't want to scroll to the section directly since we are already inside a user scroll handler.
+        var el = document.querySelector('#' + minSectionId);
+        el.id = 'tempId';
+        window.location.hash = minSectionId;
+        el.id = minSectionId;
     }
 }());
