@@ -1,0 +1,374 @@
+accent = #5082e5
+accent-hover = lighten(accent, 30%)
+gray = #D9D9D9
+body-color = #444444
+bg-gray = #f8f7f8
+
+nav-width = 60px
+body-padding = 40px
+body-left = nav-width + body-padding
+
+font-largest =
+  font-size: 46px
+
+font-large =
+  font-size: 36px
+
+font-medium =
+  font-size: 20px
+
+font-small =
+  font-size: 16px
+
+@font-face
+  font-family: "Glyphicons Halflings"
+  src: url("fonts/glyphicons-halflings-regular.ttf") format("truetype")
+
+icon-home =
+  content: "\e021"
+icon-info-sign =
+  content: "\e086"
+icon-calendar =
+  content: "\e109"
+icon-list =
+  content: "\e012"
+icon-star =
+  content: "\e006"
+icon-user =
+  content: "\e008"
+
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  padding: body-padding
+  padding-left: body-left
+  padding-top: 0
+
+  color: body-color
+  font-family: Helvetica, Arial, sans-serif
+  font-weight: 300
+
+  background-color: bg-gray
+
+a
+  text-decoration: none
+  color: accent
+
+  &:hover
+    color: accent-hover
+
+h1
+  text-transform: uppercase
+
+p
+  margin: 16px 0
+
+  {font-small}
+  line-height: 1.6em
+
+  &:first-of-type
+    margin-top: 0
+
+  &:last-of-type
+    margin-bottom: 0
+
+.flex-container
+  display: flex
+
+  section
+    flex-direction: row
+    flex: 1 1 auto
+
+    margin-right: 40px
+
+    &:last-child
+      margin-right: 0
+
+.module
+  background: white
+  border-radius: 8px
+  padding: 20px
+  box-shadow: 0 0 5px rgba(0,0,0,0.12)
+
+body > nav
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 2
+
+  width: nav-width
+  height: 100%
+
+  background-color: accent
+  box-shadow: 0 0 10px rgba(0,0,0,0.3)
+
+  > a
+    position: relative
+
+    display: block
+    width: 60px
+    height: nav-width
+    padding: 10px 10px 10px 10px
+    box-sizing: border-box
+    border-bottom: 1px solid accent-hover
+
+    font-size: 14px
+    font-weight: bold
+    letter-spacing: .03em
+    text-transform: uppercase
+    text-align: left
+    color: white
+    white-space: nowrap
+    line-height: 42px
+
+    background-color: accent
+    overflow: hidden
+    transition: width ease .2s, color ease .2s, background-color ease .2s
+
+    &:hover
+      width: 200px
+      box-shadow: 0 0 5px rgba(0,0,0,0.3)
+
+      color: white
+
+    &.selected
+      border-bottom: none
+
+      color: accent
+
+      background: white
+
+    &::before
+      float: left
+
+      display: inline-block
+      width: nav-width
+      height: nav-width
+      margin: -10px 15px 0 -10px
+
+      {font-medium}
+      font-family: "Glyphicons Halflings"
+      font-style: normal
+      font-weight: normal
+      letter-spacing: normal
+      line-height: 60px
+      text-align: center
+      vertical-align: middle
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+
+    &[href="#home"]::before
+      {icon-home}
+    &[href="#about"]::before
+      {icon-info-sign}
+    &[href="#lectures"]::before
+      {icon-calendar}
+    &[href="#assignments"]::before
+      {icon-list}
+    &[href="#project"]::before
+      {icon-star}
+    &[href="#people"]::before
+      {icon-user}
+
+body > section
+  border-bottom: 1px solid gray
+  padding-bottom: 70px
+  margin-bottom: 20px
+
+  > h1
+    margin-bottom: 40px
+
+    {font-large}
+
+#home
+  text-align: center
+  padding-top: body-padding
+
+  > h1
+    {font-largest}
+    text-align: left
+
+    margin-bottom: 50px
+
+    > .time
+      display: block
+
+      {font-medium}
+
+.schedule
+  width: 500px
+  margin: 20px auto
+
+  {font-medium}
+  text-align: left
+
+  > h1
+    margin-bottom: 5px
+    color: accent
+    opacity: 0.6
+
+  > p
+    margin-left: 40px
+    {font-medium}
+
+#this-week
+  display: inline-block
+  min-width: 500px
+  margin: 30px auto 0 auto
+
+  text-align: left
+
+  > h1
+    {font-large}
+    opacity: 0.6
+
+  table
+    display: inline-block
+    border-collapse: collapse
+    padding: 30px
+    border: 2px solid accent
+    border-radius: 8px
+
+    {font-small}
+
+    background-color: white
+    box-shadow: 0 0 5px rgba(0,0,0,0.12)
+
+  ul
+    list-style-type: none
+
+  th
+    font-weight: bold
+    text-transform: uppercase
+    padding-bottom: 10px
+    vertical-align: top
+
+  td
+    vertical-align: top
+    line-height: 1.4em
+
+  th, td
+    padding-right: 40px
+
+    &:last-of-type
+      padding-right: 0
+
+#about
+  > section
+    line-height: 1.6em
+    
+    &:not(:last-of-type)
+      margin-bottom: 30px
+    
+    ul
+      margin-left: 20px
+    
+    > h1
+      margin-bottom: 10px
+      
+#textbook
+  img
+    height: 200px
+    margin: 0 10px 10px 0
+    
+  cite
+    font-weight: bold
+
+#lectures > section
+  block-height = 80px
+  date-width = 100px
+  topics-width = 200px
+  title-height = 30px
+  reading-width = 200px
+  start-left = 20px
+  date-offset = 4px
+
+  position: relative
+  height: block-height * 2
+
+  p
+    margin: 0
+  ul
+    list-style-type: none
+
+  > *
+    position: absolute
+    height: block-height
+
+  > .lecture, > .lab
+    left: start-left
+
+    > h1
+      display: inline-block
+      width: date-width
+      font-weight: normal
+      vertical-align: top
+
+      > strong
+        display: block
+        margin-left: -date-offset
+
+    > ul
+      display: inline-block
+      left: start-left + date-width
+      width: topics-width
+      {font-small}
+
+  > .lecture
+    top: title-height
+
+  > .lab
+    top: title-height + block-height
+
+  > .reading
+    {font-small}
+    top: title-height
+    left: start-left + date-width + topics-width
+
+    > h1
+      // TODO replace with icon (or background image?)
+
+    > ul:not(:last-of-type)
+      margin-bottom: 10px
+
+  .slides-and-notes
+    {font-small}
+    top: title-height
+    left: start-left + date-width + topics-width + reading-width
+
+    > h1
+      // TODO replace with icon (or background image?)
+
+
+#people
+  > section.multiple-people ul
+    display: flex
+
+  > section > h1
+    margin-bottom: 10px
+
+  ul
+    list-style-type: none
+
+  .person
+    min-height: 200px
+    display: flex
+
+    > img
+      margin-right: 20px
+      width: 150px
+      height: 150px
+      border-radius: 8px
+      flex: 0 0 auto
+
+    > .info
+      > p
+        margin: 0 5px
+
+        &.name
+          font-weight: bold
+        &.bio
+          margin-top: 10px

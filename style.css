@@ -1,0 +1,315 @@
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("fonts/glyphicons-halflings-regular.ttf") format("truetype");
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 40px;
+  padding-left: 100px;
+  padding-top: 0;
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: #f8f7f8;
+}
+a {
+  text-decoration: none;
+  color: #5082e5;
+}
+a:hover {
+  color: #85a8ed;
+}
+h1 {
+  text-transform: uppercase;
+}
+p {
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+p:first-of-type {
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container section {
+  flex-direction: row;
+  flex: 1 1 auto;
+  margin-right: 40px;
+}
+.flex-container section:last-child {
+  margin-right: 0;
+}
+.module {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.12);
+}
+body > nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 60px;
+  height: 100%;
+  background-color: #5082e5;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+body > nav > a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #85a8ed;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 42px;
+  background-color: #5082e5;
+  overflow: hidden;
+  transition: width ease 0.2s, color ease 0.2s, background-color ease 0.2s;
+}
+body > nav > a:hover {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  color: #fff;
+}
+body > nav > a.selected {
+  border-bottom: none;
+  color: #5082e5;
+  background: #fff;
+}
+body > nav > a::before {
+  float: left;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: -10px 15px 0 -10px;
+  font-size: 20px;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body > nav > a[href="#home"]::before {
+  content: "\e021";
+}
+body > nav > a[href="#about"]::before {
+  content: "\e086";
+}
+body > nav > a[href="#lectures"]::before {
+  content: "\e109";
+}
+body > nav > a[href="#assignments"]::before {
+  content: "\e012";
+}
+body > nav > a[href="#project"]::before {
+  content: "\e006";
+}
+body > nav > a[href="#people"]::before {
+  content: "\e008";
+}
+body > section {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 70px;
+  margin-bottom: 20px;
+}
+body > section > h1 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+#home {
+  text-align: center;
+  padding-top: 40px;
+}
+#home > h1 {
+  font-size: 46px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+#home > h1 > .time {
+  display: block;
+  font-size: 20px;
+}
+.schedule {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 20px;
+  text-align: left;
+}
+.schedule > h1 {
+  margin-bottom: 5px;
+  color: #5082e5;
+  opacity: 0.6;
+}
+.schedule > p {
+  margin-left: 40px;
+  font-size: 20px;
+}
+#this-week {
+  display: inline-block;
+  min-width: 500px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+}
+#this-week > h1 {
+  font-size: 36px;
+  opacity: 0.6;
+}
+#this-week table {
+  display: inline-block;
+  border-collapse: collapse;
+  padding: 30px;
+  border: 2px solid #5082e5;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.12);
+}
+#this-week ul {
+  list-style-type: none;
+}
+#this-week th {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+#this-week td {
+  vertical-align: top;
+  line-height: 1.4em;
+}
+#this-week th,
+#this-week td {
+  padding-right: 40px;
+}
+#this-week th:last-of-type,
+#this-week td:last-of-type {
+  padding-right: 0;
+}
+#about > section {
+  line-height: 1.6em;
+}
+#about > section:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+#about > section ul {
+  margin-left: 20px;
+}
+#about > section > h1 {
+  margin-bottom: 10px;
+}
+#textbook img {
+  height: 200px;
+  margin: 0 10px 10px 0;
+}
+#textbook cite {
+  font-weight: bold;
+}
+#lectures > section {
+  position: relative;
+  height: 160px;
+}
+#lectures > section p {
+  margin: 0;
+}
+#lectures > section ul {
+  list-style-type: none;
+}
+#lectures > section > * {
+  position: absolute;
+  height: 80px;
+}
+#lectures > section > .lecture,
+#lectures > section > .lab {
+  left: 20px;
+}
+#lectures > section > .lecture > h1,
+#lectures > section > .lab > h1 {
+  display: inline-block;
+  width: 100px;
+  font-weight: normal;
+  vertical-align: top;
+}
+#lectures > section > .lecture > h1 > strong,
+#lectures > section > .lab > h1 > strong {
+  display: block;
+  margin-left: -date-offset;
+}
+#lectures > section > .lecture > ul,
+#lectures > section > .lab > ul {
+  display: inline-block;
+  left: 120px;
+  width: 200px;
+  font-size: 16px;
+}
+#lectures > section > .lecture {
+  top: 30px;
+}
+#lectures > section > .lab {
+  top: 110px;
+}
+#lectures > section > .reading {
+  font-size: 16px;
+  top: 30px;
+  left: 320px;
+}
+#lectures > section > .reading > ul:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+#lectures > section .slides-and-notes {
+  font-size: 16px;
+  top: 30px;
+  left: 520px;
+}
+#people > section.multiple-people ul {
+  display: flex;
+}
+#people > section > h1 {
+  margin-bottom: 10px;
+}
+#people ul {
+  list-style-type: none;
+}
+#people .person {
+  min-height: 200px;
+  display: flex;
+}
+#people .person > img {
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+#people .person > .info > p {
+  margin: 0 5px;
+}
+#people .person > .info > p.name {
+  font-weight: bold;
+}
+#people .person > .info > p.bio {
+  margin-top: 10px;
+}
