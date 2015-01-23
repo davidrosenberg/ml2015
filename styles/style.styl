@@ -58,6 +58,7 @@ body
   padding: body-padding
   padding-left: body-left
   padding-top: 0
+  line-height: 1.6em
 
   color: body-color
   font-family: Helvetica, Arial, sans-serif
@@ -164,6 +165,8 @@ body > nav
       {icon-home}
     &[href="#about"]::before
       {icon-info-sign}
+    &[href="#resources"]::before
+      {icon-book}
     &[href="#lectures"]::before
       {icon-calendar}
     &[href="#assignments"]::before
@@ -182,6 +185,9 @@ body > section
     margin-bottom: 40px
 
     {font-large}
+
+  > section:not(:last-of-type)
+      margin-bottom: 30px
 
   > section > h1
     margin-bottom: 10px
@@ -262,12 +268,6 @@ body > section
       padding-right: 0
 
 #about
-  > section
-    line-height: 1.6em
-
-    &:not(:last-of-type)
-      margin-bottom: 30px
-
     ul
       margin-left: 20px
 
@@ -333,6 +333,9 @@ body > section
         margin-bottom: 15px
 
 #people
+  > section:not(:last-of-type)
+    margin-bottom: 50px
+
   > section.multiple-people ul
     display: -webkit-flex
     display: flex
@@ -341,7 +344,6 @@ body > section
     list-style-type: none
 
   .person
-    min-height: 200px
     display: -webkit-flex
     display: flex
 
