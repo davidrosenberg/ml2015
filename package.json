@@ -1,0 +1,9 @@
+{
+  "name": "dsga1003",
+  "scripts": {
+    "stylus": "stylus styles/"
+  },
+  "devDependencies": {
+    "stylus": "0.49.3"
+  }
+}

@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- "0.10"
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/domenic/dsga1003.git
+  - secure: "X7JXfegdUaDQxDhnkB9n77eXQ/jiGa4Een+2Mfdye0KkQ7VXM0rjYg4SuctjdntxZ3VmGvn0I79RV0h8MBuafn2DYQ3aeHCQ8WxVqzuxPDmO2QL1QvMBuygEPicq+1z0LKbSO23/u7CXgYmSxDbK5E51+yjcTuuA4mTZOrKFUa0="

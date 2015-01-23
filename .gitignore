@@ -3,5 +3,8 @@
 desktop.ini
 Thumbs.db
 *.*~
-*.css
 \#*\#
+
+*.css
+out/
+node_modules/
