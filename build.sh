@@ -5,6 +5,7 @@ mkdir out;
 cp index.html out/
 cp script.js out/
 
+rm -rf styles/*.css
 npm run stylus
 mkdir out/styles/
 cp styles/*.css out/styles/

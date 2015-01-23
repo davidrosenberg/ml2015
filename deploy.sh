@@ -2,7 +2,7 @@
 set -e # exit with nonzero exit code if anything fails
 
 # Put stuff in the out directory
-bash ./build.sh
+npm run build
 
 # go to the out directory and create a *new* Git repo
 cd out

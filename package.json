@@ -1,7 +1,10 @@
 {
   "name": "dsga1003",
+  "private": true,
   "scripts": {
-    "stylus": "stylus styles/"
+    "stylus": "stylus styles/",
+    "watch": "stylus --watch styles/",
+    "build": "bash ./build.sh"
   },
   "devDependencies": {
     "stylus": "0.49.3"
