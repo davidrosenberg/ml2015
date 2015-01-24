@@ -48,6 +48,13 @@ icon-book =
   content: "\e043"
 icon-pencil =
   content: "\270f"
+icon-envelope =
+  content: "\2709"
+icon-new-window =
+  content: "\e164"
+icon-save =
+  content: "\e166"
+  
 
 *, *::before, *::after
   margin: 0
@@ -330,6 +337,69 @@ body > section
 
       > ul
         margin-bottom: 15px
+
+#assignments
+  .policies
+    margin-bottom: 30px
+    
+  .homework
+    margin-bottom: 20px
+    
+    .module
+      display: inline-block
+      vertical-align: middle
+      margin-right: 30px
+      
+      > section
+        display: table-cell
+        padding-right: 40px
+        
+        &:last-of-type
+          padding-right: 0
+        
+    .title
+      width: 250px
+    .deadline
+      width: 200px
+    .files
+      width: 100px
+      
+    .pdf::before
+      {icon-new-window}
+      
+    .zip::before
+      {icon-save}
+      
+  .icon
+    &::before
+      font-family: "Glyphicons Halflings"
+      opacity: 0.4
+      margin-right: 10px
+      vertical-align: middle
+    
+  .submit, .solutions
+    display: inline-block
+    vertical-align: middle
+    margin-top: 5px
+    
+  .submit
+    text-align: center
+    
+    .icon
+      margin-bottom: 5px
+    
+      &::before
+        {icon-envelope}
+        font-size: 32px
+        margin-right: 0
+        vertical-align: middle
+        
+    a:hover
+      color: accent
+      // text-shadow: rgba(0,0,0,0.12) 1px 1px 2px
+      
+      .icon::before
+        opacity: 1
 
 #people
   > section:not(:last-of-type)
