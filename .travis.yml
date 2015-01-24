@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-- "0.10"
+- '0.10'
 script: bash ./deploy.sh
 env:
   global:
   - GH_REF: github.com/davidrosenberg/dsga1003.git
-  - secure: "gqS06+tJ8U6cQNaTk+C4YItj0XjlhI1WgMZHaFT/STDRteQZUTdr3Hm5nDs/022YisOle99mLNv99h0bZXBdfVcXIBU2XM01fNo4xhKT7P8gvdTkba8cvlKzFHzqfR7CXhyiVwQEJZlmWPzqdPiwNTN6cJPI32CETppzDjC7PBY="
+  - secure: FzCgD214+KRyxvVTut84DrKQJ36BmZTy0yUNgywFecYEEnfmTl3dHquk2GwvP191mIoBqpCpsZiLMJ9vHSKF47NJkORwwIwesnuBjEiJxzG/uxpyNgt1Dxn4JJFW8ymPjxrI2RlNnVnhGVHyndAFHfHH9FJqGf6AlujGQdf3zMU=
