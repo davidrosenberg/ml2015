@@ -81,6 +81,7 @@ a
 
 h1
   text-transform: uppercase
+  line-height: normal
 
 p
   margin: 16px 0
@@ -210,30 +211,36 @@ body > section
 
     margin-bottom: 50px
 
-    > .time
+    > span
       display: block
+      margin-top: 5px
 
       {font-medium}
 
-.schedule
-  width: 500px
-  margin: 20px auto
+    .department
+      {font-small}
+      vertical-align: middle
 
-  {font-medium}
-  text-align: left
+  p
+    width: 550px
+    margin: 10px auto
+    text-align: left
 
-  > h1
-    margin-bottom: 5px
+  strong
+    display: inline-block
+    width: 150px
+
+    {font-medium}
     color: accent
+    text-transform: uppercase
+
     opacity: 0.6
 
-  > p
-    margin-left: 40px
-    {font-medium}
+  .instructor h1
+    display: inline-block
 
 #this-week
   display: inline-block
-  min-width: 500px
   margin: 30px auto 0 auto
 
   text-align: left
@@ -244,8 +251,9 @@ body > section
 
   table
     display: inline-block
+    min-width: 500px
     border-collapse: collapse
-    padding: 30px
+    padding: 25px
     border: 2px solid accent
     border-radius: 8px
 
@@ -265,7 +273,6 @@ body > section
 
   td
     vertical-align: top
-    line-height: 1.4em
 
   th, td
     padding-right: 40px
