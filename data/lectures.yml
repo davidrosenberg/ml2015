@@ -4,28 +4,137 @@
     2015-01-28:
       Label: Lecture
       Topics:
-        Course mechanics:
-          Reading (Pre):
-            - {Linear Algebra Review: "refs/stanfordCS229-linalg.pdf"}
-        Statistical learning theory framework:
-        Gradient and stochastic gradient descent:
+        course mechanics:
+        statistical learning theory framework:
+        gradient and stochastic gradient descent:
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
-          Slides and Notes:
-            - {SGD Convergence Proof: "ps1.pdf"}
-        Convexity:
-          Reading (Supplemental):
             - BV Preface, Ch 1
-      Slides and Notes:
-        - {Week 1 Slides: "slides-and-notes/week1-slides.pdf"}
+        convexity:
+        excess risk decomposition:
     2015-01-29:
       Label: Lab
       Topics:
-        Matrix differentiation:
+        matrix differentiation:
           Reading (Supplemental):
             - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
-        Closed form for regularized least squares:
-      Slides and Notes:
-        - {Lab 1 Notes: "slides-and-notes/lab1-notes.pdf"}
-
-
+-
+  Title: Week 2
+  Events:
+    2015-02-05:
+      Label: Lecture
+      Topics:
+        L1/L2 regularization:
+        loss functions:
+        optimization methods for Lasso:
+        subgradient descent:
+          Reading (Supplemental):
+            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+    2015-02-04:
+      Label: Lecture
+      Topics:
+        SVM:
+-
+  Title: Week 3
+  Events:
+    2015-02-11:
+      Label: Lecture
+      Topics:
+        SVM (cont):
+        kernel methods:
+-
+  Title: Week 4
+  Events:
+    2015-02-18:
+      Label: Lecture
+      Topics:
+        ensemble methods:
+-
+  Title: Week 5
+  Events:
+    2015-02-25:
+      Label: Lecture
+      Topics:
+        exponential families:
+        generalized linear models:
+-
+  Title: Week 6
+  Events:
+    2015-03-04:
+      Label: Lecture
+      Topics:
+        Bayesian networks:
+-
+  Title: Week 7
+  Events:
+    2015-03-11:
+      Label: Lecture
+      Topics:
+        EM algorithm:
+        Gaussian mixture models:
+-
+  Title: Week 8
+  Events:
+    2015-03-18:
+      Label: Lecture
+      Topics:
+        neural networks:
+        midterm review:
+-
+  Title: Week 9
+  Events:
+    2015-03-25:
+      Label: Lecture
+      Topics:
+        Midterm Exam:
+-
+  Title: Week 10
+  Events:
+    2015-04-01:
+      Label: Lecture
+      Topics:
+        structured prediction:
+        HMM:
+        Viterbi decoding:
+-
+  Title: Week 11
+  Events:
+    2015-04-08:
+      Label: Lecture
+      Topics:
+        Bayesian methods:
+        hierarchical models:
+        Gibbs sampling:
+-
+  Title: Week 12
+  Events:
+    2015-04-15:
+      Label: Lecture
+      Topics:
+        Bayesian model selection:
+        bandit problems:
+        Thompson sampling:
+        UCB strategy:
+-
+  Title: Week 13
+  Events:
+    2015-04-22:
+      Label: Lecture
+      Topics:
+        dimensionality reduction:
+        PCA:
+        factor analysis:
+-
+  Title: Week 14
+  Events:
+    2015-04-29:
+      Label: Lecture
+      Topics:
+        catch up and/or advanced topics:
+-
+  Title: Week 15
+  Events:
+    2015-05-06:
+      Label: Poster Session
+      Topics:
+        Exact date to be determined.:
