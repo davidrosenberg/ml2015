@@ -10,6 +10,8 @@
 
 The site is intended to be responsive, which we accomplish with per-device stylesheets and media queries in the HTML.
 
+Ideally while editing you should be using an [EditorConfig](http://editorconfig.org/) plugin for your text editor to enforce a few basic stylistic things.
+
 ### Building locally
 
 Be sure to have [io.js](https://iojs.org/) installed. (Node.js will do if you feel like rockin' in 2013 style.)
