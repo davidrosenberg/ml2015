@@ -5,7 +5,7 @@ const gulpStylus = require('gulp-stylus');
 const STYLUS = 'styles/*.styl';
 const TEMPLATES = '**/*.hbs';
 const MAIN_TEMPLATE = 'index.hbs';
-const DATA = 'data/*';
+const DATA = 'data/*.yml';
 
 const OUTPUT_HTML = 'index.html';
 const OUTPUT_STYLES = 'styles/';
