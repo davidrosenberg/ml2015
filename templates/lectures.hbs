@@ -1,0 +1,51 @@
+{{#each lectures}}
+    <section class="module">
+    <h1>{{Title}}</h1>
+
+        {{#each Events}}
+            <section>
+                <div><h1>{{Label}}<span class="date">{{shortDate @key}}</span></h1></div>
+                <div class="topics">
+                    <ul>
+                        {{#each Topics}}
+                            <li>{{@key}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="reading icon">
+                    <h1>Reading</h1>
+                    <div>
+                        {{#if [Reading (Pre)]}}
+                        <div class="reading-section">
+                            <strong>Pre:</strong>
+                            <ul>
+                                {{#each [Reading (Pre)]}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        {{/if}}
+                        {{#if [Reading (Supplemental)]}}
+                        <div class="reading-section">
+                            <strong>Supplemental:</strong>
+                            <ul>
+                                {{#each [Reading (Supplemental)]}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="slides icon">
+                    <h1>Slides and Notes</h1>
+                    <ul>
+                        {{#each [Slides and Notes]}}
+                            <li>{{maybeLink this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </section>
+        {{/each}}
+    </section>
+{{/each}}
