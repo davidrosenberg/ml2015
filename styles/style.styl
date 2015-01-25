@@ -354,6 +354,8 @@ body > section
   .reading > div
     display: -webkit-flex
     display: flex
+
+    -webkit-flex-wrap: wrap
     flex-wrap: wrap
 
     .reading-section
@@ -471,10 +473,25 @@ body > section
   > section:not(:last-of-type)
     margin-bottom: 50px
 
-  > section.multiple-people ul
-    display: -webkit-flex
-    display: flex
-    flex-direction: row
+  > section.multiple-people
+    margin-bottom: 30px
+
+    ul
+      display: -webkit-flex
+      display: flex
+
+      -webkit-flex-flow: row nowrap
+      flex-flow: row nowrap
+
+      @media screen and (max-width: 1250px)
+        -webkit-flex-wrap: wrap
+        flex-wrap: wrap
+
+      @media screen and (max-width: 900px)
+        display: block
+
+        .person
+          margin-right: 0
 
   ul
     list-style-type: none
@@ -484,9 +501,14 @@ body > section
     display: flex
 
     margin-right: 20px
+    margin-bottom: 20px
 
-    -webkit-flex: 1 1 33%
-    flex: 1 1 33%
+    -webkit-flex: 0 1 33%
+    flex: 0 1 33%
+
+    @media screen and (max-width: 1250px)
+      -webkit-flex-basis: 45%
+      flex-basis: 45%
 
     &:last-child
       margin-right: 0
