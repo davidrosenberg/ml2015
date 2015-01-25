@@ -222,19 +222,24 @@ body > section
       vertical-align: middle
 
   p
-    width: 550px
     margin: 10px auto
     text-align: left
 
-  strong
+    > strong
+      display: inline-block
+      width: 150px
+
+      {font-medium}
+      color: accent
+      text-transform: uppercase
+
+      opacity: 0.6
+
+#course-info
+  text-align: center
+
+  > div
     display: inline-block
-    width: 150px
-
-    {font-medium}
-    color: accent
-    text-transform: uppercase
-
-    opacity: 0.6
 
   .instructor h1
     display: inline-block
@@ -279,6 +284,9 @@ body > section
 
     &:last-of-type
       padding-right: 0
+
+  .assignment span
+    display: block
 
 #about
   .module
