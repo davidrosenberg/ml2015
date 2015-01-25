@@ -22,13 +22,18 @@ body > nav
       width: auto
 
 #this-week
-  min-width: initial
+  table
+    min-width: initial
+
+  th, td
+    display: table-row
 
 #home
   padding-top: 20px
 
   > h1
     text-align: center
+    margin-bottom: 40px
 
     > span
       &, .department
@@ -37,6 +42,14 @@ body > nav
       .department
         margin-top: 5px
         display: block
+
+  p
+    span
+      display: inline-block
+      width: calc(100% - 120px)
+
+    strong
+      width: 120px
 
 
 #lectures > section

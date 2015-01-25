@@ -269,7 +269,7 @@ body > section
     {font-large}
     opacity: 0.6
 
-  table
+  .week-summary
     display: inline-block
     min-width: 500px
     border-collapse: collapse
@@ -282,26 +282,25 @@ body > section
     background-color: white
     box-shadow: 0 0 5px rgba(0,0,0,0.12)
 
-  ul
-    list-style-type: none
+    h1
+      font-weight: bold
+      text-transform: uppercase
+      padding-bottom: 10px
 
-  th
-    font-weight: bold
-    text-transform: uppercase
-    padding-bottom: 10px
-    vertical-align: top
+    ul
+      list-style-type: none
 
-  td
-    vertical-align: top
+    section
+      display: inline-block
+      padding-right: 40px
 
-  th, td
-    padding-right: 40px
+      vertical-align: top
 
-    &:last-of-type
-      padding-right: 0
+      &.assignment span
+        display: block
 
-  .assignment span
-    display: block
+      &:last-of-type
+        padding-right: 0
 
 #about
   .module
