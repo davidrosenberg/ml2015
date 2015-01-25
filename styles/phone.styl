@@ -22,11 +22,21 @@ body > nav
       width: auto
 
 #this-week
-  table
+  display: inline-block
+
+  > h1
+    text-align: center
+
+  .week-summary
     min-width: initial
 
-  th, td
-    display: table-row
+    section
+      display: block
+      padding-right: 30px
+      margin-bottom: 20px
+
+      &:last-child
+        margin-bottom: 0
 
 #home
   padding-top: 20px
