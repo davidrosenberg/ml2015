@@ -28,6 +28,9 @@ font-small =
   @media(max-width: 400px)
     font-size: 14px
 
+font-smallest =
+  font-size: 14px
+
 @font-face
   font-family: "Glyphicons Halflings"
   src: url("../fonts/glyphicons-halflings-regular.ttf") format("truetype")
@@ -130,7 +133,7 @@ body > nav
     box-sizing: border-box
     border-bottom: 1px solid accent-hover
 
-    font-size: 14px
+    {font-smallest}
     font-weight: bold
     letter-spacing: .03em
     text-transform: uppercase
@@ -327,7 +330,7 @@ body > section
   display: table
   width: 100%
   margin-bottom: 20px
-  font-size: 14px
+  {font-smallest}
 
   h1
     margin-bottom: 15px
@@ -471,6 +474,7 @@ body > section
   > section.multiple-people ul
     display: -webkit-flex
     display: flex
+    flex-direction: row
 
   ul
     list-style-type: none
@@ -479,11 +483,23 @@ body > section
     display: -webkit-flex
     display: flex
 
+    margin-right: 20px
+
+    -webkit-flex: 1 1 33%
+    flex: 1 1 33%
+
+    &:last-child
+      margin-right: 0
+
+    &.instructor
+      width: 600px
+
     > img
-      margin-right: 20px
       width: 150px
       height: 150px
+      margin-right: 20px
       border-radius: 8px
+
       -webkit-flex: 0 0 auto
       flex: 0 0 auto
 
@@ -493,5 +509,9 @@ body > section
 
         &.name
           font-weight: bold
-        &.bio
-          margin-top: 10px
+
+        &.email
+          margin-bottom: 10px
+
+        &:not(.name), &:not(.email)
+          {font-smallest}
