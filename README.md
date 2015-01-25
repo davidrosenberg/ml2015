@@ -12,6 +12,8 @@ The site is intended to be responsive, which we accomplish with per-device style
 
 Ideally while editing you should be using an [EditorConfig](http://editorconfig.org/) plugin for your text editor to enforce a few basic stylistic things.
 
+We are trying to maintain a reasonable HTML document outline (so, don't use `<section>` as if it were `<div>`). To preview the document outline, use the [HTML 5 Outliner tool](https://gsnedders.html5.org/outliner/); here's [a direct link to the outline for the current version](https://gsnedders.html5.org/outliner/process.py?url=https%3A%2F%2Fdavidrosenberg.github.io%2Fml2015%2F%23home).
+
 ### Building locally
 
 Be sure to have [io.js](https://iojs.org/) installed. (Node.js will do if you feel like rockin' in 2013 style.)
