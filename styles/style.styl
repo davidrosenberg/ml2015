@@ -101,6 +101,12 @@ p
   padding: 20px
   box-shadow: 0 0 5px rgba(0,0,0,0.12)
 
+.icon::before
+  font-family: "Glyphicons Halflings"
+  opacity: 0.4
+  margin-right: 10px
+  vertical-align: middle
+
 body > nav
   position: fixed
   top: 0
@@ -244,6 +250,10 @@ body > section
   .instructor h1
     display: inline-block
 
+  .email::before
+    {icon-envelope}
+    margin-left: 5px
+
 #this-week
   display: inline-block
   margin: 30px auto 0 auto
@@ -327,12 +337,6 @@ body > section
   .icon
     display: table-cell
 
-    &::before
-      font-family: "Glyphicons Halflings"
-      color: accent
-      font-size: 40px
-      opacity: 0.4
-
     &.book::before
       {icon-book}
 
@@ -392,13 +396,6 @@ body > section
     .zip::before
       {icon-save}
 
-  .icon
-    &::before
-      font-family: "Glyphicons Halflings"
-      opacity: 0.4
-      margin-right: 10px
-      vertical-align: middle
-
   .submit, .solutions
     display: inline-block
     vertical-align: middle
@@ -414,11 +411,9 @@ body > section
         {icon-envelope}
         font-size: 32px
         margin-right: 0
-        vertical-align: middle
 
     a:hover
       color: accent
-      // text-shadow: rgba(0,0,0,0.12) 1px 1px 2px
 
       .icon::before
         opacity: 1
