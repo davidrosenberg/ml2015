@@ -3,10 +3,18 @@
   "private": true,
   "scripts": {
     "stylus": "stylus styles/",
-    "watch": "stylus --watch styles/",
+    "watch": "gulpur watch",
+    "build-in-place": "gulpur build",
     "build": "bash ./build.sh"
   },
   "devDependencies": {
-    "stylus": "0.49.3"
+    "gulp": "^3.8.10",
+    "gulp-stylus": "^2.0.0",
+    "gulpur": "^1.0.0",
+    "handlebars": "^2.0.0",
+    "js-yaml": "^3.2.5",
+    "moment": "^2.9.0",
+    "stylus": "0.49.3",
+    "traceur": "0.0.81"
   }
 }

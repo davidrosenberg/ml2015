@@ -1,0 +1,33 @@
+{{#each assignments}}
+    <section class="homework">
+        <div class="module">
+            <div class="title">
+                <h1>{{Label}}</h1>
+                {{{Description}}}
+            </div>
+            <div class="deadline"><strong>Due:</strong> {{date Due}}, {{@root.assignmentsFrontmatter.[Due time]}}</div>
+            <div class="files">
+                {{#each PDF}}
+                    <a href="{{this}}" target="_blank" class="pdf icon">{{@key}}</a>
+                {{/each}}
+                {{#each ZIP}}
+                    <a href="{{this}}" class="zip icon">{{@key}}</a>
+                {{/each}}
+            </div>
+        </div>
+        {{#if Submittable}}
+            <div class="submit">
+                <a href="{{@root.assignmentsFrontmatter.[Submit link]}}">
+                    <div class="icon"></div>
+                    <strong>Submit</strong>
+                </a>
+            </div>
+        {{/if}}
+        {{#each Solutions}}
+            <div class="solutions">
+                <strong>Solutions:</strong>
+                <a href="{{Solutions}}" class="zip icon">{{@key}}</a>
+            </div>
+        {{/each}}
+    </section>
+{{/each}}

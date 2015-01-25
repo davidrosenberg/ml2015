@@ -2,10 +2,12 @@
 .Rhistory
 desktop.ini
 Thumbs.db
+npm-debug.log
 *.*~
 ~$*
 \#*\#
 
 *.css
+index.html
 out/
 node_modules/

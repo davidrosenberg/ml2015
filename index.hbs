@@ -299,63 +299,12 @@
     <div class="policies">
         <p><strong>Homework Submission:</strong> Homework should be submitted through <a href="https://newclasses.nyu.edu/portal">NYU Classes</a>.
 
-        <p><strong>Late Policy:</strong> Homeworks are due at 4pm on the date specified.  Homeworks will still be accepted for 48 hours after this time but will have a 20% penalty.
+        <p><strong>Late Policy:</strong> Homeworks are due at {{assignments.[Due time]}} on the date specified.  Homeworks will still be accepted for 48 hours after this time but will have a 20% penalty.
 
         <p><strong>Collaboration Policy:</strong> You may discuss problems with your classmates. However, you must write up the homework solutions and the code from scratch, without referring to notes from your joint session.  In your solution to each problem, you must write down the names of any person with whom you discussed the problem—this will not affect your grade.
     </div>
 
-    <section class="homework" id="hw-0">
-        <div class="module">
-            <div class="title">
-                <h1>Homework 0</h1>
-                Test <a href="https://newclasses.nyu.edu/portal">NYU Classes</a> homework submission
-            </div>
-            <div class="deadline"><strong>Due:</strong> January 30, 4pm</div>
-            <div class="files"></div>
-        </div>
-    </section>
-    <section class="homework" id="hw-1">
-        <div class="module">
-            <div class="title">
-                <h1>Homework 1</h1>
-                Ridge Regression and SGD
-            </div>
-            <div class="deadline"><strong>Due:</strong> February 4, 4pm</div>
-            <div class="files">
-                <a href="homework/regression-SGD/hw1.pdf" target="_blank" class="pdf icon">hw1.pdf</a>
-                <a href="homework/regression-SGD/hw1.zip" class="zip icon">hw1.zip</a>
-            </div>
-        </div>
-        <div class="submit" style="display:none">
-            <a href="mailto:somebody@gmail.com?subject=DS-GA 1003: Homework 1 Submission&amp;body=The files should be submitted as a zip file with the following naming convention: DS1003-xyz.zip, where xyz is replaced with your NYU ID.">
-                <div class="icon"></div>
-                <strong>Submit</strong>
-            </a>
-        </div>
-        <div class="solutions">
-            <strong>Solutions:</strong>
-            <a href="homework/regression-SGD/hw1_solutions.zip" class="zip icon">hw1_solutions.zip</a>
-        </div>
-    </section>
-    <section class="homework" id="hw-2">
-        <div class="module">
-            <div class="title">
-                <h1>Homework 2</h1>
-                Image Classification
-            </div>
-            <div class="deadline"><strong>Due:</strong> February 11, 4pm</div>
-            <div class="files">
-                <a href="homework/regression-SGD/hw2.pdf" target="_blank" class="pdf icon">hw2.pdf</a>
-                <a href="homework/regression-SGD/hw2.zip" class="zip icon">hw2.zip</a>
-            </div>
-        </div>
-        <div class="submit">
-            <a href="mailto:somebody@gmail.com?subject=DS-GA 1003: Homework 2 Submission&amp;body=The files should be submitted as a zip file with the following naming convention: DS1003-xyz.zip, where xyz is replaced with your NYU ID.">
-                <div class="icon"></div>
-                <strong>Submit</strong>
-            </a>
-        </div>
-    </section>
+    {{> assignments }}
 </section>
 
 <!--

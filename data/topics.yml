@@ -1,0 +1,29 @@
+Week 1:
+  Lecture:
+    Date: 2015-01-28
+    Topics:
+      Course mechanics:
+        Reading (Pre):
+          - {Linear Algebra Review: "refs/stanfordCS229-linalg.pdf"}
+      Statistical learning theory framework:
+      Gradient and stochastic gradient descent:
+        Reading (Supplemental):
+          - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+        Slides and Notes:
+          - {SGD Convergence Proof: "ps1.pdf"}
+      Convexity:
+        Reading (Supplemental):
+          - BV Preface, Ch 1
+    Slides and Notes:
+      - {Week 1 Slides: "slides-and-notes/week1-slides.pdf"}
+  Lab:
+    Date: 2015-01-29
+    Topics:
+      Matrix differentiation:
+        Reading (Supplemental):
+          - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
+      Closed form for regularized least squares:
+    Slides and Notes:
+      - {Lab 1 Notes: "slides-and-notes/lab1-notes.pdf"}
+
+
