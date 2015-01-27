@@ -6,7 +6,12 @@
       Topics:
         Course mechanics:
         Statistical learning theory framework:
+          Reading (Pre):
+            - Your favorite math review notes
         Gradient and stochastic gradient descent:
+          Reading (Supplemental):
+            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+            - BV Preface, Ch 1
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
@@ -14,8 +19,8 @@
       Label: Lab
       Topics:
         matrix differentiation:
-          Reading (Supplemental):
-            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
+#          Reading (Supplemental):
+#            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 -
   Title: Week 2
   Events:
