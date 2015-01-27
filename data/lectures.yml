@@ -10,8 +10,6 @@
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
-        Convexity:
-        Excess risk decomposition:
     2015-01-29:
       Label: Lab
       Topics:
@@ -24,10 +22,12 @@
     2015-02-04:
       Label: Lecture
       Topics:
+        Excess risk decomposition:
         L1/L2 regularization:
         Loss functions:
         Optimization methods for Lasso:
         SVM intro:
+        Convexity:
     2015-02-05:
       Label: Lab
       Topics:
