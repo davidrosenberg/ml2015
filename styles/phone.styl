@@ -17,6 +17,7 @@ body > nav
     flex: 0 0 16.6666666666666%
     border-bottom: none
     border-right: 1px solid accent-hover
+    touch-action: manipulation
 
     &:hover
       width: auto
@@ -56,12 +57,13 @@ body > nav
         display: block
 
   p
+    label-width = 145px
     span
       display: inline-block
-      width: calc(100% - 120px)
+      width: "calc(100% - %s)" % label-width
 
     strong
-      width: 120px
+      width: label-width
 
 #textbooks
   img
