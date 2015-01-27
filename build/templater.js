@@ -4,6 +4,7 @@ const fs = require('fs');
 const handlebarsFactory = require('handlebars');
 const moment = require('moment');
 const assert = require('assert');
+const toSlug = require('to-slug');
 
 const SLIDES_AND_NOTES = 'Slides and Notes';
 const READING_PRE = 'Reading (Pre)';
@@ -79,17 +80,8 @@ function parseDocuments() {
             `this-week.yaml`);
     }
 
+    thisWeek.lecture = thisWeekLecture;
     thisWeek.assignment = thisWeekAssignment;
-
-    thisWeek.topics = [];
-    thisWeek[READING_PRE] = [];
-    thisWeek[READING_SUPPLEMENTAL] = [];
-    Object.keys(thisWeekLecture.Events).forEach(k => {
-        const event = thisWeekLecture.Events[k];
-        thisWeek.topics.push(...Object.keys(event.Topics));
-        thisWeek[READING_PRE].push(...event[READING_PRE]);
-        thisWeek[READING_SUPPLEMENTAL].push(...event[READING_SUPPLEMENTAL]);
-    });
 
     return { lectures, thisWeek, assignmentsFrontmatter, assignments };
 }
@@ -120,6 +112,8 @@ function registerHelpers(handlebars) {
 
         return new handlebars.SafeString('<a href="' + v[key] + '">' + key + '</a>');
     });
+    handlebars.registerHelper('lectureSlug', l => 'lecture-' + toSlug(l.Title));
+    handlebars.registerHelper('assignmentSlug', l => 'assignment-' + toSlug(l.Label));
 }
 
 function ensureArrayExists(obj, prop) {

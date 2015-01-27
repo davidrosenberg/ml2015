@@ -1,5 +1,5 @@
 {{#each this}}
-    <section class="module">
+    <section class="module" id="{{lectureSlug this}}">
     <h1>{{Title}}</h1>
 
         {{#each Events}}
@@ -15,7 +15,7 @@
                 <div class="reading icon">
                     <h1>Reading</h1>
 
-                    {{> _reading }}
+                    <ul>{{> _reading }}</ul>
                 </div>
                 <div class="slides icon">
                     <h1>Slides and Notes</h1>
