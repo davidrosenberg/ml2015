@@ -14,4 +14,4 @@ cp index.html out/
 mkdir out/styles/
 cp styles/*.css out/styles/
 
-cp -r refs images homework fonts scripts out/
+cp -r refs images homework fonts scripts docs out/
