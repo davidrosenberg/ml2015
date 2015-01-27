@@ -4,7 +4,7 @@
 rm -rf out || exit 0;
 mkdir out;
 
-rm index.html
+rm -f index.html
 rm -rf styles/*.css
 
 npm run build-in-place
@@ -15,3 +15,7 @@ mkdir out/styles/
 cp styles/*.css out/styles/
 
 cp -r refs images homework fonts scripts docs out/
+
+echo ""
+find out/ -print
+echo ""
