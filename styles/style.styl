@@ -363,22 +363,8 @@ body > section
   .topics, .reading
     padding-right: 60px
 
-  .reading > div
-    display: -webkit-flex
-    display: flex
-
-    -webkit-flex-wrap: wrap
-    flex-wrap: wrap
-
-    .reading-section
-      display: inline-block
-      vertical-align: top
-
-      -webkit-flex: 0 0 auto
-      flex: 0 0 auto
-
-      &:first-of-type
-        margin-right: 25px
+  .reading > ul:empty::after
+    content: "(None)"
 
   .icon
     &::before

@@ -14,28 +14,12 @@
                 </div>
                 <div class="reading icon">
                     <h1>Reading</h1>
-                    <div>
-                        {{#if [Reading (Pre)]}}
-                        <div class="reading-section">
-                            <strong>Pre:</strong>
-                            <ul>
-                                {{#each [Reading (Pre)]}}
-                                    <li>{{maybeLink this}}</li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        {{/if}}
-                        {{#if [Reading (Supplemental)]}}
-                        <div class="reading-section">
-                            <strong>Supplemental:</strong>
-                            <ul>
-                                {{#each [Reading (Supplemental)]}}
-                                    <li>{{maybeLink this}}</li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        {{/if}}
-                    </div>
+
+                    {{!-- Squashing the Handlebars against the <ul> and </ul> is important so that :empty works --}}
+                    <ul>{{#each [Reading (Pre)]}}
+                            <li>{{maybeLink this}} (Pre)</li>
+                        {{/each}}{{#each [Reading (Supplemental)]}}
+                            <li>{{maybeLink this}}</li>{{/each}}</ul>
                 </div>
                 <div class="slides icon">
                     <h1>Slides and Notes</h1>
