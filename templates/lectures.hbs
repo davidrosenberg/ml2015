@@ -1,4 +1,4 @@
-{{#each lectures}}
+{{#each this}}
     <section class="module">
     <h1>{{Title}}</h1>
 
@@ -15,11 +15,7 @@
                 <div class="reading icon">
                     <h1>Reading</h1>
 
-                    {{!-- Squashing the Handlebars against the <ul> and </ul> is important so that :empty works --}}
-                    <ul>{{#each [Reading (Pre)]}}
-                            <li>{{maybeLink this}} (Pre)</li>
-                        {{/each}}{{#each [Reading (Supplemental)]}}
-                            <li>{{maybeLink this}}</li>{{/each}}</ul>
+                    {{> _reading }}
                 </div>
                 <div class="slides icon">
                     <h1>Slides and Notes</h1>

@@ -36,33 +36,7 @@
         </div>
     </div>
 
-    <section id="this-week">
-        <h1>This week</h1>
-
-        <div class="week-summary">
-            <section>
-                <h1><a href="#lectures">Lecture</a></h1>
-                <ul>
-                    <li>Introduction
-                    <li>Statistical learning theory
-                    <li>Foundations
-                    <li>Stochastic gradient descent
-                </ul>
-            </section>
-            <section>
-                <h1><a href="#lectures">Reading</a></h1>
-                <ul>
-                    <li>Review your favorite <a href="#references">math tutorials</a></li>
-                </ul>
-            </section>
-            <section class="assignment">
-                <h1><a href="#assignments">Assignment</a></h1>
-
-                <span><strong>Due:</strong> January 30, 2015</span>
-                <a href="https://newclasses.nyu.edu/portal">Homework 0</a>
-            </section>
-        </div>
-    </section>
+    {{> this-week thisWeek }}
 </section>
 <section id="about">
     <h1>About This Course</h1>
@@ -170,7 +144,7 @@
         <li> (BV) refers to Boyd and Vandenberghe's <a href="http://stanford.edu/~boyd/cvxbook/"><cite>Convex Optimization</cite></a>
     </ul>
 
-    {{> lectures }}
+    {{> lectures lectures }}
 </section>
 <section id="assignments">
     <h1>Assignments</h1>
@@ -183,7 +157,7 @@
         <p><strong>Collaboration Policy:</strong> You may discuss problems with your classmates. However, you must write up the homework solutions and the code from scratch, without referring to notes from your joint session.  In your solution to each problem, you must write down the names of any person with whom you discussed the problem—this will not affect your grade.
     </div>
 
-    {{> assignments }}
+    {{> assignments assignments }}
 </section>
 
 <!--

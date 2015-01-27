@@ -9,6 +9,8 @@ const SLIDES_AND_NOTES = 'Slides and Notes';
 const READING_PRE = 'Reading (Pre)';
 const READING_SUPPLEMENTAL = 'Reading (Supplemental)';
 
+const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
+
 export default function (input, output) {
     const handlebars = handlebarsFactory.create();
     registerHelpers(handlebars);
@@ -62,15 +64,44 @@ function parseDocuments() {
         ++i;
     });
 
-    return { lectures, assignmentsFrontmatter, assignments };
+    const thisWeek = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/this-week.yml')));
+
+    // Pull data from lectures and assignments into thisWeek:
+    const thisWeekLecture = lectures.find(l => l.Title === thisWeek['Lecture/Lab']);
+    const thisWeekAssignment = assignments.find(a => a.Label === thisWeek.Assignment);
+
+    if (thisWeekLecture === undefined) {
+        throw new Error(`Could not find entry in lectures.yml with Title "${thisWeek['Lecture/Lab']}" specified in ` +
+            `this-week.yaml`);
+    }
+    if (thisWeekAssignment === undefined) {
+        throw new Error(`Could not find entry in assignments.yml with Label "${thisWeek['Assignment']}" specified in ` +
+            `this-week.yaml`);
+    }
+
+    thisWeek.assignment = thisWeekAssignment;
+
+    thisWeek.topics = [];
+    thisWeek[READING_PRE] = [];
+    thisWeek[READING_SUPPLEMENTAL] = [];
+    Object.keys(thisWeekLecture.Events).forEach(k => {
+        const event = thisWeekLecture.Events[k];
+        thisWeek.topics.push(...Object.keys(event.Topics));
+        thisWeek[READING_PRE].push(...event[READING_PRE]);
+        thisWeek[READING_SUPPLEMENTAL].push(...event[READING_SUPPLEMENTAL]);
+    });
+
+    return { lectures, thisWeek, assignmentsFrontmatter, assignments };
 }
 
 function registerPartials(handlebars) {
-    const assignmentsFilename = path.resolve(__dirname, '../templates/assignments.hbs');
-    handlebars.registerPartial('assignments', fs.readFileSync(assignmentsFilename, { encoding: 'utf-8' }));
+    for (const filename of fs.readdirSync(TEMPLATES_DIR)) {
+        const filePath = path.resolve(TEMPLATES_DIR, filename);
+        const partialName = path.basename(filename, '.hbs');
+        const contents = fs.readFileSync(filePath, { encoding: 'utf-8' });
 
-    const lecturesFilename = path.resolve(__dirname, '../templates/lectures.hbs');
-    handlebars.registerPartial('lectures', fs.readFileSync(lecturesFilename, { encoding: 'utf-8' }));
+        handlebars.registerPartial(partialName, contents);
+    }
 }
 
 function registerHelpers(handlebars) {

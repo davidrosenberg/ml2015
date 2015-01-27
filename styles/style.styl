@@ -105,12 +105,19 @@ p
   padding: 20px
   box-shadow: 0 0 5px rgba(0,0,0,0.12)
 
-.icon::before
-  font-family: "Glyphicons Halflings"
-  opacity: 0.4
-  margin-right: 10px
-  vertical-align: middle
-  color: accent
+.icon
+  &::before
+    font-family: "Glyphicons Halflings"
+    opacity: 0.4
+    margin-right: 10px
+    vertical-align: middle
+    color: accent
+
+  &.pdf::before
+    {icon-new-window}
+
+  &.zip::before
+    {icon-save}
 
 body > nav
   position: fixed
@@ -232,6 +239,9 @@ body > section
       {font-small}
       vertical-align: middle
 
+#course-info
+  text-align: center
+
   p
     margin: 10px auto
     text-align: left
@@ -245,9 +255,6 @@ body > section
       text-transform: uppercase
 
       opacity: 0.6
-
-#course-info
-  text-align: center
 
   > div
     display: inline-block
@@ -264,6 +271,12 @@ body > section
   margin: 30px auto 0 auto
 
   text-align: left
+
+  li, p
+    line-height: 1.1
+
+  li
+    margin-bottom: 10px
 
   > h1
     {font-large}
@@ -292,15 +305,26 @@ body > section
 
     section
       display: inline-block
-      padding-right: 40px
+      margin-right: 40px
+      min-width: 200px
+      max-width: 250px
 
       vertical-align: top
 
-      &.assignment span
-        display: block
+      &.assignment
+        > p
+          margin-top: 0
+
+        .files
+          display: -webkit-flex
+          display: flex
+          -webkit-justify-content: space-between
+          justify-content: space-between
+          -webkit-flex-wrap: wrap
+          flex-wrap: wrap
 
       &:last-of-type
-        padding-right: 0
+        margin-right: 0
 
 #about
   .module
@@ -431,21 +455,18 @@ body > section
     .title
       width: 250px
 
-      h1
+      > h1
         line-height: 1.6em
         white-space: nowrap
+
+      > p
+        margin-top: 0
 
     .deadline
       width: 250px
 
     .files
       width: 100px
-
-    .pdf::before
-      {icon-new-window}
-
-    .zip::before
-      {icon-save}
 
   .submit, .solutions
     display: inline-block

@@ -1,19 +1,11 @@
-{{#each assignments}}
+{{#each this}}
     <section class="homework">
         <div class="module">
             <div class="title">
                 <h1>{{Label}}</h1>
-                {{{Description}}}
+                <p>{{{Description}}}</p>
             </div>
-            <div class="deadline"><strong>Due:</strong> {{date Due}}, {{@root.assignmentsFrontmatter.[Due time]}}</div>
-            <div class="files">
-                {{#each PDF}}
-                    <a href="{{this}}" target="_blank" class="pdf icon">{{@key}}</a>
-                {{/each}}
-                {{#each ZIP}}
-                    <a href="{{this}}" class="zip icon">{{@key}}</a>
-                {{/each}}
-            </div>
+            {{> _assignment-details }}
         </div>
         {{#if Submittable}}
             <div class="submit">
