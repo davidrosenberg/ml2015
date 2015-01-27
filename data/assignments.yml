@@ -7,17 +7,17 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Description: Test <a href="https://newclasses.nyu.edu/portal">NYU Classes</a> homework submission
   Due: 2015-01-30
 
--
-  Label: Homework 1
-  Description: Ridge regression and SGD
-  Due: 2015-02-04
-  PDF: {hw1.pdf: "homework/regression-SGD/hw1..pdf"}
-  ZIP: {hw1.zip: "homework/regression-SGD/hw1..zip"}
-  Solutions: {hw1_solutions.zip: "homework/regression-SGD/hw1_solutions.zip"}
--
-  Label: Homework 2
-  Description: Image classification
-  Due: 2015-02-11
-  PDF: {hw2.pdf: "homework/regression-SGD/hw2.pdf"}
-  ZIP: {hw2.zip: "homework/regression-SGD/hw2.zip"}
-  Submittable: true
+# -
+#   Label: Homework 1
+#   Description: Ridge regression and SGD
+#   Due: 2015-02-04
+#   PDF: {hw1.pdf: "homework/regression-SGD/hw1..pdf"}
+#   ZIP: {hw1.zip: "homework/regression-SGD/hw1..zip"}
+#   Solutions: {hw1_solutions.zip: "homework/regression-SGD/hw1_solutions.zip"}
+# -
+#   Label: Homework 2
+#   Description: Image classification
+#   Due: 2015-02-11
+#   PDF: {hw2.pdf: "homework/regression-SGD/hw2.pdf"}
+#   ZIP: {hw2.zip: "homework/regression-SGD/hw2.zip"}
+#   Submittable: true
