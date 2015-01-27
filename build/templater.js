@@ -74,8 +74,8 @@ function registerPartials(handlebars) {
 }
 
 function registerHelpers(handlebars) {
-    handlebars.registerHelper('date', d => moment(new Date(d).toISOString()).format('MMMM Do'));
-    handlebars.registerHelper('shortDate', d => moment(new Date(d).toISOString()).format('MMM D'));
+    handlebars.registerHelper('date', d => moment.utc(new Date(d).toISOString()).format('MMMM Do'));
+    handlebars.registerHelper('shortDate', d => moment.utc(new Date(d).toISOString()).format('MMM D'));
     handlebars.registerHelper('maybeLink', v => {
         if (typeof v === 'string') {
             return v;
