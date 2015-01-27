@@ -4,14 +4,14 @@
     2015-01-28:
       Label: Lecture
       Topics:
-        course mechanics:
-        statistical learning theory framework:
-        gradient and stochastic gradient descent:
+        Course mechanics:
+        Statistical learning theory framework:
+        Gradient and stochastic gradient descent:
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
-        convexity:
-        excess risk decomposition:
+        Convexity:
+        Excess risk decomposition:
     2015-01-29:
       Label: Lab
       Topics:
@@ -21,19 +21,19 @@
 -
   Title: Week 2
   Events:
-    2015-02-05:
-      Label: Lecture
-      Topics:
-        L1/L2 regularization:
-        loss functions:
-        optimization methods for Lasso:
-        subgradient descent:
-          Reading (Supplemental):
-            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
     2015-02-04:
       Label: Lecture
       Topics:
-        SVM:
+        L1/L2 regularization:
+        Loss functions:
+        Optimization methods for Lasso:
+        SVM intro:
+    2015-02-05:
+      Label: Lab
+      Topics:
+        Subgradient descent:
+          Reading (Supplemental):
+            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
 # -
 #   Title: Week 3
 #   Events:
