@@ -5,6 +5,8 @@
       Label: Lecture
       Topics:
         Course mechanics:
+          Reading (Supplemental):
+            - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
         Statistical learning theory framework:
           Reading (Pre):
             - Your favorite math review notes
