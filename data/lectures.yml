@@ -14,6 +14,7 @@
             - Math review notes
           Slides and Notes:
             - {Statistical Learning Theory: "docs/intro-slt-riskdecomp.pdf"}
+        Excess risk decomposition:
         Gradient and stochastic gradient descent:
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
@@ -26,7 +27,7 @@
     2015-01-29:
       Label: Lab
       Topics:
-        Matrix differentiation:
+        Matrix differentiation (Shanshan Ding):
 #          Reading (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 -
@@ -35,7 +36,6 @@
     2015-02-04:
       Label: Lecture
       Topics:
-        Excess risk decomposition:
         L1/L2 regularization:
         Loss functions:
         Optimization methods for Lasso:
