@@ -7,9 +7,13 @@
         Course mechanics:
           Reading (Supplemental):
             - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
+          Slides and Notes:
+            - {Course Logistics: "docs/course-logistics.pdf"}
         Statistical learning theory framework:
           Reading (Pre):
-            - Your favorite math review notes
+            - Math review notes
+          Slides and Notes:
+            - {Statistical Learning Theory: "docs/intro-slt-riskdecomp.pdf"}
         Gradient and stochastic gradient descent:
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
@@ -17,6 +21,8 @@
           Reading (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
+          Slides and Notes:
+            - {Stochastic Gradient Descent: "docs/stoch-grad-descent.pdf"}
     2015-01-29:
       Label: Lab
       Topics:
