@@ -41,10 +41,18 @@
       Label: Lecture
       Topics:
         L1/L2 regularization:
-        Loss functions:
+          Reading (Supplemental):
+            - "KPM 13.3, 13.4.1"
+            - "HFT Ch. 3"
+            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
         Optimization methods for Lasso:
-        SVM intro:
-        Convexity:
+        Losses for classification:
+        Convex Optimization:
+          Slides and Notes:
+#            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+          Reading (Supplemental):
+            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+            - BV Ch 1-5
     2015-02-05:
       Label: Lab
       Topics:
