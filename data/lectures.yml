@@ -43,11 +43,15 @@
         Excess Risk Decomposition (cont.):
           Reading (Pre):
             - "KPM 16.2.1"
+          Slides and Notes:
+            - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
         L1/L2 regularization:
           Reading (Supplemental):
             - "KPM 13.3, 13.4.1"
             - "HFT Ch. 3"
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+          Slides and Notes:
+            - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
         Optimization methods for Lasso:
         Losses for classification:
         Convex Optimization:
