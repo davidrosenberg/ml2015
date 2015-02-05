@@ -53,28 +53,30 @@
           Slides and Notes:
             - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
         Optimization methods for Lasso:
-        Losses for classification:
-        Convex Optimization:
-          Slides and Notes:
-#            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
-          Reading (Supplemental):
-            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
-            - BV Ch 1-5
     2015-02-05:
       Label: Lab
       Topics:
         Subgradient descent:
           Reading (Supplemental):
             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-# -
-#   Title: Week 3
-#   Events:
-#     2015-02-11:
-#       Label: Lecture
-#       Topics:
-#         SVM (cont):
-#         kernel methods:
-# -
+          Slides and Notes:
+            - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
+-
+  Title: Week 3
+  Events:
+    2015-02-11:
+      Label: Lecture
+      Topics:
+        SVM (cont):
+        kernel methods:
+        Losses for classification:
+        Convex Optimization:
+#          Slides and Notes:
+#            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+          Reading (Supplemental):
+            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+            - BV Ch 1-5
+        # -
 #   Title: Week 4
 #   Events:
 #     2015-02-18:
