@@ -9,10 +9,9 @@ Submit link: "https://newclasses.nyu.edu/portal"
   PDF: {hw1.pdf: "homework/hw1.pdf"}
   ZIP: {hw1.zip: "homework/hw1.zip"}
 #  Solutions: {hw1_solutions.zip: "homework/hw1-sgd/hw1_solutions.zip"}
-# -
-#   Label: Homework 2
-#   Description: Image classification
-#   Due: 2015-02-11
-#   PDF: {hw2.pdf: "homework/regression-SGD/hw2.pdf"}
-#   ZIP: {hw2.zip: "homework/regression-SGD/hw2.zip"}
-#   Submittable: true
+-
+  Label: Homework 2
+  Description: Lasso regression
+  Due: 2015-02-13
+  PDF: {hw2.pdf: "homework/hw2.pdf"}
+  ZIP: {hw2.zip: "homework/hw2.zip"}
