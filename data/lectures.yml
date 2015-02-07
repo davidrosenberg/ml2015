@@ -5,21 +5,21 @@
       Label: Lecture
       Topics:
         Course mechanics:
-          Reading (Supplemental):
+          References (Supplemental):
             - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
           Slides and Notes:
             - {Course Logistics: "docs/course-logistics.pdf"}
         Statistical learning theory framework:
-          Reading (Pre):
+          References (Pre):
             - Math review notes
           Slides and Notes:
             - {Statistical Learning Theory: "docs/intro-slt-riskdecomp.pdf"}
         Excess risk decomposition:
         Gradient and stochastic gradient descent:
-          Reading (Supplemental):
+          References (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
-          Reading (Supplemental):
+          References (Supplemental):
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
           Slides and Notes:
@@ -28,11 +28,11 @@
       Label: Lab
       Topics:
         Matrix differentiation (Shanshan Ding):
-          Reading (Supplemental):
+          References (Supplemental):
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
 
-#          Reading (Supplemental):
+#          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 -
   Title: Week 2
@@ -41,12 +41,12 @@
       Label: Lecture
       Topics:
         Excess Risk Decomposition (cont.):
-          Reading (Pre):
+          References (Pre):
             - "KPM 16.2.1"
           Slides and Notes:
             - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
         L1/L2 regularization:
-          Reading (Supplemental):
+          References (Supplemental):
             - "KPM 13.3, 13.4.1"
             - "HFT Ch. 3"
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
@@ -57,7 +57,7 @@
       Label: Lab
       Topics:
         Subgradient descent:
-          Reading (Supplemental):
+          References (Supplemental):
             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
           Slides and Notes:
             - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
@@ -71,7 +71,7 @@
         Convex Optimization:
 #          Slides and Notes:
 #            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
-          Reading (Supplemental):
+          References (Supplemental):
             - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
             - BV Ch 1-5
         SVM:

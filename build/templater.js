@@ -7,8 +7,8 @@ const assert = require('assert');
 const toSlug = require('to-slug');
 
 const SLIDES_AND_NOTES = 'Slides and Notes';
-const READING_PRE = 'Reading (Pre)';
-const READING_SUPPLEMENTAL = 'Reading (Supplemental)';
+const REFERENCES_PRE = 'References (Pre)';
+const REFERENCES_SUPPLEMENTAL = 'References (Supplemental)';
 
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 
@@ -32,19 +32,19 @@ function compileTemplate(handlebars, input) {
 function parseDocuments() {
     const lectures = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/lectures.yml')));
 
-    // Pull Slides and Notes, Reading (Pre), and Reading (Supplemental) from the topics up to the top level:
+    // Pull Slides and Notes, References (Pre), and References (Supplemental) from the topics up to the top level:
     for (const lecture of lectures) {
         Object.keys(lecture.Events).forEach(eventDate => {
             const event = lecture.Events[eventDate];
 
             ensureArrayExists(event, SLIDES_AND_NOTES);
-            ensureArrayExists(event, READING_PRE);
-            ensureArrayExists(event, READING_SUPPLEMENTAL);
+            ensureArrayExists(event, REFERENCES_PRE);
+            ensureArrayExists(event, REFERENCES_SUPPLEMENTAL);
 
             Object.keys(event.Topics).forEach(topic => {
                 copyArrayInto(event.Topics[topic], event, SLIDES_AND_NOTES);
-                copyArrayInto(event.Topics[topic], event, READING_PRE);
-                copyArrayInto(event.Topics[topic], event, READING_SUPPLEMENTAL);
+                copyArrayInto(event.Topics[topic], event, REFERENCES_PRE);
+                copyArrayInto(event.Topics[topic], event, REFERENCES_SUPPLEMENTAL);
             });
         });
     }
