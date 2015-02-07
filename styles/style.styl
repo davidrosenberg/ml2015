@@ -240,27 +240,22 @@ body > section
       vertical-align: middle
 
 #course-info
-  text-align: center
+  margin: 10px auto
+  text-align: left
 
-  p
-    margin: 10px auto
-    text-align: left
+  th
+    font-weight: bold
+    min-width: 170px
+    vertical-align: top
 
-    > strong
-      display: inline-block
-      width: 150px
+    {font-medium}
+    color: accent
+    text-transform: uppercase
 
-      {font-medium}
-      color: accent
-      text-transform: uppercase
+    opacity: 0.6
 
-      opacity: 0.6
-
-  > div
-    display: inline-block
-
-  .instructor h1
-    display: inline-block
+  tr:last-of-type
+    line-height: 1
 
   .email::before
     {icon-envelope}
@@ -557,7 +552,7 @@ body > section
           overflow: hidden
           text-overflow: ellipsis
 
-        &.bio, &.office-hours
+        &.bio
           margin-top: 10px
 
           {font-smallest}
