@@ -3,6 +3,7 @@
   Events:
     2015-01-28:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-1-9/61380/"
       Topics:
         Course mechanics:
           References (Supplemental):
@@ -26,6 +27,7 @@
             - {Stochastic Gradient Descent: "docs/stoch-grad-descent.pdf"}
     2015-01-29:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-1/61381/"
       Topics:
         Matrix differentiation (Shanshan Ding):
           References (Supplemental):
