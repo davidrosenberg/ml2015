@@ -58,6 +58,8 @@ icon-new-window =
   content: "\e164"
 icon-save =
   content: "\e166"
+icon-video =
+  content: "\e059"
 
 
 *, *::before, *::after
@@ -368,6 +370,10 @@ body > section
   h1
     margin-bottom: 15px
 
+    .video
+      margin-left: 2px
+      vertical-align: 1px
+
   .date
     display: block
     margin-top: 5px
@@ -385,18 +391,26 @@ body > section
     content: "(None)"
 
   .icon
-    &::before
-      position: absolute
-      left: -42px
-      top: 20px
+    &.references, &.slides
+      &::before
+        position: absolute
+        left: -42px
+        top: 20px
 
-      font-size: 30px
+        font-size: 30px
 
     &.references::before
       {icon-book}
 
     &.slides::before
       {icon-pencil}
+
+    &.video
+      &::before
+        {icon-video}
+
+      &:hover::before
+        opacity: 1
 
   > section
     display: table-row

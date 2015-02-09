@@ -4,7 +4,13 @@
 
         {{#each Events}}
             <section>
-                <div class="label"><h1>{{Label}} <span class="date">{{shortDate @key}}</span></h1></div>
+                <div class="label">
+                    <h1>
+                        {{Label}}
+                        {{#if Video}}<a href="{{Video}}" class="video"><span class="video icon"></span></a>{{/if}}
+                        <span class="date">{{shortDate @key}}</span>
+                    </h1>
+                </div>
                 <div class="topics">
                     <ul>
                         {{#each Topics}}
