@@ -1,3 +1,4 @@
+#http://techtalks.tv/machine-learning-nyu-spring-2015/
 -
   Title: Week 1
   Events:
@@ -27,7 +28,7 @@
             - {Stochastic Gradient Descent: "docs/stoch-grad-descent.pdf"}
     2015-01-29:
       Label: Lab
-      Video: "http://techtalks.tv/talks/lab-1/61381/"
+#      Video: "http://techtalks.tv/talks/lab-1/61381/"
       Topics:
         Matrix differentiation (Shanshan Ding):
           References (Supplemental):
@@ -41,6 +42,7 @@
   Events:
     2015-02-04:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-1-9/61385/"
       Topics:
         Excess Risk Decomposition (cont.):
           References (Pre):
