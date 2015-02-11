@@ -78,7 +78,19 @@
             - BV Ch 1-5
         SVM:
           References (Supplemental):
-            - "HTF 12.1 - 12.3.2"
+            - {SVM (notes): "docs/svm-notes.pdf"}
+            - "HTF 12.2.1 - 12.3.2"
+#          Slides and Notes:
+#            - {SVM Notes: "docs/svm-notes.pdf"}
+    2015-02-12:
+      Label: Lab
+      Topics:
+        Projections:
+        SVM (Geometric Motivation):
+          References (Supplemental):
+            - "HTF 4.5"
+#            - "HTF p. 417-419"
+
 # -
 #   Title: Week 4
 #   Events:
