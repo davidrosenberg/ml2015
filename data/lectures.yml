@@ -81,7 +81,7 @@
         SVM:
           References (Supplemental):
             - {SVM (notes): "docs/svm-notes.pdf"}
-            - "HTF 12.2.1 - 12.3.2"
+            - "HTF 12.2.1 - 12.3.2 (Lecture)"
 #          Slides and Notes:
 #            - {SVM Notes: "docs/svm-notes.pdf"}
     2015-02-12:
@@ -90,7 +90,7 @@
         Projections:
         SVM (Geometric Motivation):
           References (Supplemental):
-            - "HTF 4.5"
+            - "HTF 3.2.0,4.5 (Lab)"
 #            - "HTF p. 417-419"
 
 # -
