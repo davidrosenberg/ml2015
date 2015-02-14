@@ -72,8 +72,11 @@
       Label: Lecture
       Topics:
         Loss functions:
+          Slides and Notes:
+             - {Loss functions: "docs/3a.loss-functions.pdf"}
         Convex Optimization:
-#          Slides and Notes:
+          Slides and Notes:
+            - {Convex optimization: "docs/3b.convex-optimization.pdf"}
 #            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
           References (Supplemental):
             - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
@@ -81,9 +84,13 @@
         SVM:
           References (Supplemental):
             - {SVM (notes): "docs/svm-notes.pdf"}
-            - "HTF 12.2.1 - 12.3.2 (Lecture)"
-#          Slides and Notes:
+            - "HTF 12.2.1 - 12.2.2 (Lecture)"
+          Slides and Notes:
+             - {SVM (slides): "docs/3c.SVM.pdf"}
 #            - {SVM Notes: "docs/svm-notes.pdf"}
+
+
+
     2015-02-12:
       Label: Lab
       Topics:
@@ -92,6 +99,32 @@
           References (Supplemental):
             - "HTF 3.2.0,4.5 (Lab)"
 #            - "HTF p. 417-419"
+
+-
+  Title: Week 4
+  Events:
+    2015-02-18:
+      Label: Lecture
+      Topics:
+        Kernel Functions:
+          References (Supplemental):
+            - "KPM 14.2.1-14.2.6"
+        Kernelized Ridge Regression:
+          References (Supplemental):
+            - "KPM 14.3.1-14.4.3"
+        Kernelized SVM:
+          References (Supplemental):
+            - "HTF 12.3.1"
+            - "KPM 14.5"
+
+
+
+    2015-02-19:
+      Label: Lab
+      Topics:
+        Some practical machine learning
+#            - "HTF p. 417-419"
+
 
 # -
 #   Title: Week 4
