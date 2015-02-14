@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e # exit with nonzero exit code if anything fails
+
 ## TODO migrate to gulp probably
 
 # clear and re-create the out directory
