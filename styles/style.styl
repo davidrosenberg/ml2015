@@ -370,16 +370,23 @@ body > section
   h1
     margin-bottom: 15px
 
-    .video
-      margin-left: 2px
-      vertical-align: 1px
-
-  .date
+  .date, .video
     display: block
     margin-top: 5px
-    font-size: .9em
-    opacity: 0.6
+
+  .date
     color: accent
+    font-size: 0.9em
+    opacity: 0.6
+
+  .video
+    font-size: 0.85em
+
+    &::after
+      font-family: "Glyphicons Halflings"
+      margin-left: 5px
+      vertical-align: top
+      {icon-video}
 
   ul
     list-style-type: none
@@ -405,12 +412,8 @@ body > section
     &.slides::before
       {icon-pencil}
 
-    &.video
-      &::before
-        {icon-video}
-
-      &:hover::before
-        opacity: 1
+    &.video::before
+      {icon-video}
 
   > section
     display: table-row

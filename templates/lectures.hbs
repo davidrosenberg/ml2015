@@ -7,8 +7,10 @@
                 <div class="label">
                     <h1>
                         {{Label}}
-                        {{#if Video}}<a href="{{Video}}" class="video"><span class="video icon"></span></a>{{/if}}
                         <span class="date">{{shortDate @key}}</span>
+                        {{#if Video}}
+                            <a class="video" href="{{Video}}">Video</a>
+                        {{/if}}
                     </h1>
                 </div>
                 <div class="topics">
