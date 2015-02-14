@@ -100,3 +100,20 @@
             - "HTF 3.2.0,4.5 (Lab)"
 #            - "HTF p. 417-419"
 
+-
+  Title: Week 4
+  Events:
+    2015-02-18:
+      Label: Lecture
+      Topics:
+        Kernel Functions:
+          References (Supplemental):
+            - "KPM 14.2.1-14.2.6"
+        Kernelized Ridge Regression:
+          References (Supplemental):
+            - "KPM 14.3.1-14.4.3"
+        Kernelized SVM:
+          References (Supplemental):
+            - "HTF 12.3.1"
+            - "KPM 14.5"
+
