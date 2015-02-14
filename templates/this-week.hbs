@@ -16,7 +16,13 @@
             <section>
                 <h1><a href="#{{lectureSlug this}}">References</a></h1>
 
-                <ul>{{#each Events}}{{> _references }}{{/each}}</ul>
+                {{#each Events}}{{> _references }}{{/each}}
+            </section>
+        {{/with}}
+        {{#with lecture}}
+            <section class="slides-and-notes">
+                <h1><a href="#{{lectureSlug this}}">Slides and Notes</a></h1>
+                <ul>{{#each Events}}{{#each [Slides and Notes]}}<li>{{maybeLink this}}</li>{{/each}}{{/each}}</ul>
             </section>
         {{/with}}
         {{#with assignment }}

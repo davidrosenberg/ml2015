@@ -23,15 +23,11 @@
                 <div class="references icon">
                     <h1>References</h1>
 
-                    <ul>{{> _references }}</ul>
+                    {{> _references }}
                 </div>
                 <div class="slides icon">
                     <h1>Slides and Notes</h1>
-                    <ul>
-                        {{#each [Slides and Notes]}}
-                            <li>{{maybeLink this}}</li>
-                        {{/each}}
-                    </ul>
+                    <ul>{{#each [Slides and Notes]}}<li>{{maybeLink this}}</li>{{/each}}</ul>
                 </div>
             </section>
         {{/each}}

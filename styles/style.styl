@@ -264,8 +264,11 @@ body > section
     margin-left: 5px
 
 #this-week
-  display: inline-block
   margin: 30px auto 0 auto
+
+  width: 1220px
+  @media screen and (max-width: 1340px)
+    width: 670px
 
   text-align: left
 
@@ -280,9 +283,13 @@ body > section
     opacity: 0.6
 
   .week-summary
-    display: inline-block
-    min-width: 500px
-    border-collapse: collapse
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-wrap: wrap
+    flex-wrap: wrap
+    -webkit-justify-content: center
+    justify-content: center
+
     padding: 25px
     border: 2px solid accent
     border-radius: 8px
@@ -301,10 +308,8 @@ body > section
     list-style-type: none
 
   section
-    display: inline-block
-    margin-right: 40px
-    min-width: 200px
-    max-width: 250px
+    width: 250px
+    margin: 5px 20px
 
     vertical-align: top
 
@@ -320,8 +325,9 @@ body > section
         -webkit-flex-wrap: wrap
         flex-wrap: wrap
 
-    &:last-of-type
-      margin-right: 0
+    &.slides-and-notes
+      ul:empty::after
+        content: "(None yet)"
 
 #about
   .module
