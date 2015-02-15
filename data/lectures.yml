@@ -84,7 +84,7 @@
         SVM:
           References (Supplemental):
             - {SVM (notes): "docs/svm-notes.pdf"}
-            - "HTF 12.2.1 - 12.2.2 (Lecture)"
+            - "HTF 12.2.1 - 12.2.2"
           Slides and Notes:
              - {SVM (slides): "docs/3c.SVM.pdf"}
 #            - {SVM Notes: "docs/svm-notes.pdf"}
@@ -97,8 +97,8 @@
         Projections:
         SVM (Geometric Motivation):
           References (Supplemental):
-            - "HTF 3.2.0,4.5 (Lab)"
-#            - "HTF p. 417-419"
+            - "HTF 3.2.0,4.5"
+            - "HTF pp. 417-419"
 
 -
   Title: Week 4
@@ -121,4 +121,3 @@
       Label: Lab
       Topics:
         Machine Learning in practice:
-            - "HTF p. 417-419"
