@@ -77,17 +77,16 @@
         Convex Optimization:
           Slides and Notes:
             - {Convex optimization: "docs/3b.convex-optimization.pdf"}
-#            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
-          References (Supplemental):
             - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+          References (Supplemental):
             - BV Ch 1-5
         SVM:
           References (Supplemental):
-            - {SVM (notes): "docs/svm-notes.pdf"}
             - "HTF 12.2.1 - 12.2.2"
           Slides and Notes:
-             - {SVM (slides): "docs/3c.SVM.pdf"}
-#            - {SVM Notes: "docs/svm-notes.pdf"}
+            - {SVM (slides): "docs/3c.SVM.pdf"}
+            - {SVM (notes): "docs/svm-notes.pdf"}
+
 
 
 
@@ -106,9 +105,15 @@
     2015-02-18:
       Label: Lecture
       Topics:
-        Kernel Functions:
+        Features:
+          Slides and Notes:
+            - {Features: "docs/4b.features.pdf"}
+        Kernel Methods:
           References (Supplemental):
             - "KPM 14.2.1-14.2.6"
+          Slides and Notes:
+            - {Kernel Methods (Overview): "docs/4a.kernels-highlevel.pdf"}
+            - {Kernels: "docs/4c.kernels.pdf"}
         Kernelized Ridge Regression:
           References (Supplemental):
             - "KPM 14.3.1-14.4.3"
@@ -117,7 +122,9 @@
             - "HTF 12.3.1"
             - "KPM 14.5"
 
-#    2015-02-19:
-#      Label: Lab
-#      Topics:
-#        Machine Learning in practice:
+    2015-02-19:
+      Label: Lab
+      Topics:
+        Kernelizations:
+          Slides and Notes:
+            - {Kernelizations: "docs/4.Lab.kernelizations.pdf"}
