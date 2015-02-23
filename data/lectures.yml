@@ -88,9 +88,6 @@
             - {SVM (slides): "docs/3c.SVM.pdf"}
             - {SVM (notes): "docs/svm-notes.pdf"}
 
-
-
-
     2015-02-12:
       Label: Lab
       Topics:
@@ -129,3 +126,118 @@
         Kernelizations:
           Slides and Notes:
             - {Kernelizations: "docs/4.Lab.kernelizations.pdf"}
+
+- Title: Week 5
+  Events:
+    2015-03-25:
+      Label: Lecture
+      Topics:
+#        k-Nearest Neighbors:
+#          References (Supplemental):
+#            - "MJ Ch 7"
+        Trees:
+          References (Supplemental):
+            - "HTF 9.2"
+            - "KPM 16-16.2.4"
+        Bagging:
+          References (Supplemental):
+            - "HTF 8.7"
+        Random Forests:
+          References (Supplemental):
+            - "HTF Ch. 15"
+        Boosting:
+          References (Supplemental):
+            - "HTF Ch. 10"
+
+# - Title: Week 6
+#   Events:
+#     2015-03-04:
+#       Label: Lecture
+#       Topics:
+#         Exponential Families:
+#           References (Supplemental):
+#             - "MJ Ch 8.1"
+#         Generalized Linear Models:
+#           References (Supplemental):
+#             - "MJ Ch 8.2"
+
+# - Title: Week 7
+#   Events:
+#     2015-03-11:
+#       Label: Lecture
+#       Topics:
+#         Class Conditional Generative Models:
+#           References (Supplemental):
+#             - "MJ Ch 7"
+#         Exponential Families:
+#           References (Supplemental):
+#             - "MJ Ch 8.1"
+#         Generalized Linear Models:
+#           References (Supplemental):
+#             - "MJ Ch 8.2"
+#         Naive Bayes:
+
+
+# - Title: Week 8
+#   Events:
+#     2015-03-25:
+#       Label: Lecture
+#       Topics:
+#         Bayesian Networks:
+#           References (Supplemental):
+#             - "MJ Ch 2.1"
+#             - "KPM 10.1, 10.2.1-10.2.3"
+#         Bayes Net Inference:
+#           References (Supplemental):
+#             - "MJ Ch 3-3.1.2"
+#             - "KPM 10.3"
+#         Bayes Net Learning (Fully Observed Case):
+#           References (Supplemental):
+#             - "MJ Ch 9.1-9.2"
+#             - "KPM 10.4-10.4.2"
+
+# - Title: Week 9
+#   Events:
+#     2015-04-01:
+#       Label: Lecture
+#       Topics:
+#         Gaussian Mixture Model:
+#           References (Supplemental):
+#             - "MJ Ch 10.1"
+#         EM Algorithm:
+#           References (Supplemental):
+#             - "MJ Ch 11.1-11.3"
+
+# - Title: Week 10
+#   Events:
+#     2015-04-08:
+#       Label: Midterm Exam
+#       Topics:
+#         Covers all topics through Week 9:
+
+# - Title: Week 11
+#   Events:
+#     2015-04-15:
+#       Label: Lecture
+#       Topics:
+#         Structured Prediction:
+#         Multiclass Classification:
+#         Hidden Markov Model (Inference):
+#           References (Supplemental):
+#             - "MJ Ch 12-12.4,12.7"
+#         Hidden Markov Model (Estimation):
+#           References (Supplemental):
+#             - "MJ Ch 12.8"
+
+# - Title: Week 12
+#   Events:
+#     2015-02-25:
+#       Label: Lecture
+#       Topics:
+#         Bayesian Statistics:
+#           References (Supplemental):
+#             - "MJ Ch 5.1"
+#         Graphical Model Plates:
+#           References (Supplemental):
+#             - "MJ Ch 5.2"
+
