@@ -136,10 +136,14 @@
 #          References (Supplemental):
 #            - "MJ Ch 7"
         Trees:
+          Slides and Notes:
+            - {Trees: "docs/5a.trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
             - "KPM 16-16.2.4"
         Bagging:
+          Slides and Notes:
+            - {Bagging and Random Forests: "docs/5b.bagging-random-forests.pdf"}
           References (Supplemental):
             - "HTF 8.7"
         Random Forests:
