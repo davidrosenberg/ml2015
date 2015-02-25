@@ -21,3 +21,9 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Due: 2015-02-23
   PDF: {hw3.pdf: "homework/hw3.pdf"}
   ZIP: {hw3.zip: "homework/hw3.zip"}
+-
+  Label: Homework 4
+  Description: Kernel Methods and Lagrangian Duality
+  Due: 2015-03-03
+  PDF: {hw4.pdf: "homework/hw4.pdf"}
+  ZIP: {hw4.zip: "homework/hw4.zip"}
