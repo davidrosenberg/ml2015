@@ -4,7 +4,7 @@
   Events:
     2015-01-28:
       Label: Lecture
-      Video: "http://techtalks.tv/talks/lecture-1-9/61380/"
+      Video: "http://techtalks.tv/talks/lecture-1-9/61396/"
       Topics:
         Course mechanics:
           References (Supplemental):
@@ -42,7 +42,7 @@
   Events:
     2015-02-04:
       Label: Lecture
-      Video: "http://techtalks.tv/talks/lecture-1-9/61385/"
+      Video: "http://techtalks.tv/talks/lecture-44/61399/"
       Topics:
         Excess Risk Decomposition (cont.):
           References (Pre):
@@ -70,7 +70,7 @@
   Events:
     2015-02-11:
       Label: Lecture
-      Video: "http://techtalks.tv/talks/lecture-47/61389/"
+      Video: "http://techtalks.tv/talks/lecture-47/61403/"
       Topics:
         Loss functions:
           Slides and Notes:
@@ -90,6 +90,7 @@
 
     2015-02-12:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-11/61404/"
       Topics:
         Projections:
         SVM (Geometric Motivation):
@@ -102,6 +103,7 @@
   Events:
     2015-02-18:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-50/61408/"
       Topics:
         Features:
           Slides and Notes:
@@ -132,15 +134,21 @@
     2015-03-25:
       Label: Lecture
       Topics:
-#        k-Nearest Neighbors:
-#          References (Supplemental):
-#            - "MJ Ch 7"
         Trees:
           Slides and Notes:
             - {Trees: "docs/5a.trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
             - "KPM 16-16.2.4"
+
+- Title: Week 6
+  Events:
+    2015-03-04:
+      Label: Lecture
+      Topics:
+#        k-Nearest Neighbors:
+#          References (Supplemental):
+#            - "MJ Ch 7"
         Bagging:
           Slides and Notes:
             - {Bagging and Random Forests: "docs/5b.bagging-random-forests.pdf"}
@@ -149,21 +157,15 @@
         Random Forests:
           References (Supplemental):
             - "HTF Ch. 15"
-#        Boosting:
-#          References (Supplemental):
-#            - "HTF Ch. 10"
-
-# - Title: Week 6
-#   Events:
-#     2015-03-04:
-#       Label: Lecture
-#       Topics:
-#         Exponential Families:
-#           References (Supplemental):
-#             - "MJ Ch 8.1"
-#         Generalized Linear Models:
-#           References (Supplemental):
-#             - "MJ Ch 8.2"
+        Boosting:
+          References (Supplemental):
+            - "HTF Ch. 10"
+        # Exponential Families:
+        #   References (Supplemental):
+        #     - "MJ Ch 8.1"
+        # Generalized Linear Models:
+        #   References (Supplemental):
+        #     - "MJ Ch 8.2"
 
 # - Title: Week 7
 #   Events:
