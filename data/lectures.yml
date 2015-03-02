@@ -131,7 +131,7 @@
 
 - Title: Week 5
   Events:
-    2015-03-25:
+    2015-02-25:
       Label: Lecture
       Topics:
         Trees:
@@ -140,15 +140,18 @@
           References (Supplemental):
             - "HTF 9.2"
             - "KPM 16-16.2.4"
+    2015-02-26:
+      Label: Lab
+      Topics:
+        Homework Review:
+          Slides and Notes:
+            - {"SGD, Parameter Tuning, and Directional Derivatives": "docs/5.Lab.misc.pdf"}
 
 - Title: Week 6
   Events:
     2015-03-04:
       Label: Lecture
       Topics:
-#        k-Nearest Neighbors:
-#          References (Supplemental):
-#            - "MJ Ch 7"
         Bagging:
           Slides and Notes:
             - {Bagging and Random Forests: "docs/5b.bagging-random-forests.pdf"}
@@ -166,6 +169,10 @@
         # Generalized Linear Models:
         #   References (Supplemental):
         #     - "MJ Ch 8.2"
+    2015-03-05:
+      Label: Lab
+      Topics:
+        Probability Distribution Review (Shanshan Ding):
 
 # - Title: Week 7
 #   Events:
@@ -247,3 +254,6 @@
 #           References (Supplemental):
 #             - "MJ Ch 5.2"
 
+#        k-Nearest Neighbors:
+#          References (Supplemental):
+#            - "MJ Ch 7"
