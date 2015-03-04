@@ -154,7 +154,8 @@
       Topics:
         Bagging:
           Slides and Notes:
-            - {Bagging and Random Forests: "docs/5b.bagging-random-forests.pdf"}
+          Slides and Notes:
+            - {Bagging and Random Forests: "docs/6a.bagging-random-forests.pdf"}
           References (Supplemental):
             - "HTF 8.7"
         Random Forests:
@@ -163,6 +164,9 @@
         Boosting:
           References (Supplemental):
             - "HTF Ch. 10"
+            - "KPM Ch. 16.4"
+          Slides and Notes:
+            - {Boosting: "docs/6b.boosting.pdf"}
         # Exponential Families:
         #   References (Supplemental):
         #     - "MJ Ch 8.1"
