@@ -28,13 +28,14 @@
             - {Stochastic Gradient Descent: "docs/stoch-grad-descent.pdf"}
     2015-01-29:
       Label: Lab
-#      Video: "http://techtalks.tv/talks/lab-1/61381/"
+      Video: "http://techtalks.tv/talks/lab-1/61397/"
       Topics:
         Matrix differentiation (Shanshan Ding):
           References (Supplemental):
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
-
+          Slides and Notes:
+            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 -
@@ -97,7 +98,8 @@
           References (Supplemental):
             - "HTF 3.2.0,4.5"
             - "HTF pp. 417-419"
-
+          Slides and Notes:
+            - {Projections and SVM: "docs/projections-svm.pdf"}
 -
   Title: Week 4
   Events:
@@ -142,6 +144,7 @@
             - "KPM 16-16.2.4"
     2015-02-26:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-16/61415/"
       Topics:
         Homework Review:
           Slides and Notes:
@@ -151,6 +154,7 @@
   Events:
     2015-03-04:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-55/61417/"
       Topics:
         Bagging:
           Slides and Notes:
@@ -167,22 +171,22 @@
             - "KPM Ch. 16.4"
           Slides and Notes:
             - {Boosting: "docs/6b.boosting.pdf"}
-        # Exponential Families:
-        #   References (Supplemental):
-        #     - "MJ Ch 8.1"
-        # Generalized Linear Models:
-        #   References (Supplemental):
-        #     - "MJ Ch 8.2"
     2015-03-05:
       Label: Lab
       Topics:
         Probability Distribution Review (Shanshan Ding):
+          Slides and Notes:
+            - {Probability Distributions: "docs/probability-distributions.pdf"}
 
-# - Title: Week 7
-#   Events:
-#     2015-03-11:
-#       Label: Lecture
-#       Topics:
+- Title: Week 7
+  Events:
+    2015-03-11:
+      Label: Lecture
+      Topics:
+        Neural Networks:
+           References (Supplemental):
+             - "HTF Ch 13"
+             - "KPM 16.5-16.5.5"
 #         Class Conditional Generative Models:
 #           References (Supplemental):
 #             - "MJ Ch 7"
