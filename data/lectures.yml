@@ -158,7 +158,6 @@
       Topics:
         Bagging:
           Slides and Notes:
-          Slides and Notes:
             - {Bagging and Random Forests: "docs/6a.bagging-random-forests.pdf"}
           References (Supplemental):
             - "HTF 8.7"
@@ -183,10 +182,17 @@
     2015-03-11:
       Label: Lecture
       Topics:
+        Gradient Boosting:
+          References (Supplemental):
+            - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+            - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+          Slides and Notes:
+            - {Gradient Boosting: "docs/7a.gradient-boosting.pdf"}
         Neural Networks:
-           References (Supplemental):
-             - "HTF Ch 13"
-             - "KPM 16.5-16.5.5"
+          References (Supplemental):
+            - "HTF Ch 11"
+            - "KPM 16.5-16.5.5"
+            - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
 #         Class Conditional Generative Models:
 #           References (Supplemental):
 #             - "MJ Ch 7"
