@@ -10,12 +10,12 @@
           References (Supplemental):
             - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
           Slides and Notes:
-            - {Course Logistics: "docs/course-logistics.pdf"}
+            - {Course Logistics: "docs/1a.course-logistics.pdf"}
         Statistical learning theory framework:
           References (Pre):
             - Math review notes
           Slides and Notes:
-            - {Statistical Learning Theory: "docs/intro-slt-riskdecomp.pdf"}
+            - {Statistical Learning Theory: "docs/1b.intro-slt-riskdecomp.pdf"}
         Excess risk decomposition:
         Gradient and stochastic gradient descent:
           References (Supplemental):
@@ -25,7 +25,7 @@
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
             - BV Preface, Ch 1
           Slides and Notes:
-            - {Stochastic Gradient Descent: "docs/stoch-grad-descent.pdf"}
+            - {Stochastic Gradient Descent: "docs/1c.stoch-grad-descent.pdf"}
     2015-01-29:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-1/61397/"
@@ -142,6 +142,9 @@
           References (Supplemental):
             - "HTF 9.2"
             - "KPM 16-16.2.4"
+        Bias and Variance:
+          Slides and Notes:
+            - {Bias and Variance: "docs/5b.bias-variance.pdf"}
     2015-02-26:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-16/61415/"
@@ -181,6 +184,7 @@
   Events:
     2015-03-11:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-58/61424/"
       Topics:
         Gradient Boosting:
           References (Supplemental):
