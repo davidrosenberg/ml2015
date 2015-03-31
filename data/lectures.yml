@@ -221,7 +221,7 @@
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-22/61435/"
       Topics:
-        Probabilistic Modeling:
+        Generalized Additive Models:
           Slides and Notes:
             - {Generalized Linear Models: "docs/8.Lab.glm.pdf"}
           References (Supplemental):
