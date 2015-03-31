@@ -201,6 +201,9 @@
             - "HTF Ch 11"
             - "KPM 16.5-16.5.5"
             - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
+    2015-03-12:
+      Label: Project Adviser Meetings
+      Topics: []
 
 - Title: Week 8
   Events:
@@ -236,6 +239,11 @@
       Topics:
         Exam Review:
 
+- Title: Week 10
+  Events:
+    2015-04-08:
+      Label: Midterm Exam
+      Topics: []
 
 # - Title: Week 8
 #   Events:
