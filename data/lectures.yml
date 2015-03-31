@@ -135,6 +135,7 @@
   Events:
     2015-02-25:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-53/61414/"
       Topics:
         Trees:
           Slides and Notes:
@@ -175,6 +176,7 @@
             - {Boosting: "docs/6b.boosting.pdf"}
     2015-03-05:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-18/61420/"
       Topics:
         Probability Distribution Review (Shanshan Ding):
           Slides and Notes:
@@ -199,16 +201,40 @@
             - "HTF Ch 11"
             - "KPM 16.5-16.5.5"
             - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
-#         Class Conditional Generative Models:
-#           References (Supplemental):
-#             - "MJ Ch 7"
-#         Exponential Families:
-#           References (Supplemental):
-#             - "MJ Ch 8.1"
-#         Generalized Linear Models:
-#           References (Supplemental):
-#             - "MJ Ch 8.2"
-#         Naive Bayes:
+
+- Title: Week 8
+  Events:
+    2015-03-25:
+      Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-61/61433/"
+      Topics:
+        Probabilistic Modeling:
+          Slides and Notes:
+            - {CitySense and CabSense: "docs/8a.citysense.pdf"}
+        Conditional Probability Models:
+          Slides and Notes:
+            - {Conditional Probability Models: "docs/8b.conditional-probability-models.pdf"}
+          References (Supplemental):
+            - "HTF Ch 11"
+            - "KPM 16.5-16.5.5"
+            - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
+    2015-03-26:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-22/61435/"
+      Topics:
+        Probabilistic Modeling:
+          Slides and Notes:
+            - {Generalized Linear Models: "docs/8.Lab.glm.pdf"}
+          References (Supplemental):
+            - {Part III of Andrew Ng's CS 229 Notes: http://cs229.stanford.edu/notes/cs229-notes1.pdf}
+
+
+- Title: Week 9
+  Events:
+    2015-04-01:
+      Label: Lecture
+      Topics:
+        Exam Review:
 
 
 # - Title: Week 8
@@ -229,11 +255,22 @@
 #             - "MJ Ch 9.1-9.2"
 #             - "KPM 10.4-10.4.2"
 
-# - Title: Week 9
-#   Events:
-#     2015-04-01:
-#       Label: Lecture
-#       Topics:
+#         Class Conditional Generative Models:
+#           References (Supplemental):
+#             - "MJ Ch 7"
+#         Exponential Families:
+#           References (Supplemental):
+#             - "MJ Ch 8.1"
+#         Generalized Linear Models:
+#           References (Supplemental):
+#             - "MJ Ch 8.2"
+#         Naive Bayes:
+
+
+
+
+
+
 #         Gaussian Mixture Model:
 #           References (Supplemental):
 #             - "MJ Ch 10.1"
