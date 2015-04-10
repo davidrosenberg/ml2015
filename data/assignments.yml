@@ -38,3 +38,9 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Due: 2015-04-10
   PDF: {hw6.pdf: "homework/hw6.pdf"}
   ZIP: {hw6.zip: "homework/hw6.zip"}
+-
+  Label: Homework 7
+  Description: Tikhonov, Ivanov, Square Hinge, and GLMs
+  Due: 2015-04-17
+  PDF: {hw7.pdf: "homework/hw7.pdf"}
+  ZIP: {hw7.zip: "homework/hw7.zip"}

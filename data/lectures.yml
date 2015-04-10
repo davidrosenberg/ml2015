@@ -221,7 +221,7 @@
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-22/61435/"
       Topics:
-        Generalized Additive Models:
+        Generalized Linear Models:
           Slides and Notes:
             - {Generalized Linear Models: "docs/8.Lab.glm.pdf"}
           References (Supplemental):
@@ -243,6 +243,18 @@
       Label: Midterm Exam
       Topics: []
 
+- Title: Week 11
+  Events:
+    2015-04-15:
+      Label: Lecture
+      Topics:
+        k-means Clustering:
+        Gaussian Mixture Models:
+        Expectation Maximization Algorithm:
+    2015-04-16:
+      Label: Lab (Shanshan)
+      Topics:
+        SVD, PCA, Linear Discriminant Analysis:
 # - Title: Week 8
 #   Events:
 #     2015-03-25:
