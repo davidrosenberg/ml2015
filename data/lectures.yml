@@ -252,9 +252,8 @@
         Gaussian Mixture Models:
         Expectation Maximization Algorithm:
     2015-04-16:
-      Label: Lab (Shanshan)
-      Topics:
-        SVD, PCA, Linear Discriminant Analysis:
+      Label: Project Adviser Meetings
+      Topics: []
 # - Title: Week 8
 #   Events:
 #     2015-03-25:
@@ -332,3 +331,7 @@
 #        k-Nearest Neighbors:
 #          References (Supplemental):
 #            - "MJ Ch 7"
+#    2015-04-30:
+#      Label: Lab (Shanshan)
+#      Topics:
+#        SVD, PCA, Linear Discriminant Analysis:
