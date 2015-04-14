@@ -248,12 +248,36 @@
     2015-04-15:
       Label: Lecture
       Topics:
-        k-means Clustering:
-        Gaussian Mixture Models:
-        Expectation Maximization Algorithm:
+        Probabilistic Reasoning:
+        Bayesian Networks:
+        Examples:
     2015-04-16:
       Label: Project Adviser Meetings
       Topics: []
+
+- Title: Week 12
+  Events:
+    2015-04-22:
+      Label: Lecture
+      Topics:
+        Bayesian Statistics:
+    2015-04-23:
+      Label: Lab
+      Topics: []
+
+- Title: Week 13
+  Events:
+    2015-04-29:
+      Label: Lecture
+      Topics:
+        k-means Clustering:
+        Gaussian Mixture Models:
+        Expectation Maximization Algorithm:
+    2015-04-30:
+      Label: Lab (Shanshan)
+      Topics:
+        SVD, PCA, Linear Discriminant Analysis:
+
 # - Title: Week 8
 #   Events:
 #     2015-03-25:
