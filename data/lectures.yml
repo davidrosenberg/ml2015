@@ -232,10 +232,15 @@
   Events:
     2015-04-01:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-64/61438/"
       Topics:
         Exam Review:
           Slides and Notes:
             - {Midterm Review: "docs/9.midterm-review.pdf"}
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lecture-64/61440/"
+      Topics:
+        Exam Review:
 
 - Title: Week 10
   Events:
@@ -247,10 +252,14 @@
   Events:
     2015-04-15:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-69/61447/"
       Topics:
-        Probabilistic Reasoning:
         Bayesian Networks:
-        Examples:
+          Slides and Notes:
+            - {Bayesian Networks: "docs/11.bayesian-networks.pdf"}
+          References (Supplemental):
+            - "KPM Chapter 10"
+
     2015-04-16:
       Label: Project Adviser Meetings
       Topics: []
@@ -260,7 +269,10 @@
     2015-04-22:
       Label: Lecture
       Topics:
-        Bayesian Statistics:
+        Bayesian Methods:
+          References (Supplemental):
+            - "KPM Chapter 5"
+
     2015-04-23:
       Label: Lab
       Topics: []
