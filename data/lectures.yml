@@ -272,6 +272,11 @@
         Bayesian Methods:
           References (Supplemental):
             - "KPM Chapter 5"
+          Slides and Notes:
+            - {Bayesian Methods: "docs/12.bayesian-methods.pdf"}
+        Bayesian Regression:
+          References (Supplemental):
+            - "KPM 7.6"
 
     2015-04-23:
       Label: Lab
