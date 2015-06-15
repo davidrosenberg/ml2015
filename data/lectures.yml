@@ -234,19 +234,26 @@
       Label: Lecture
       Video: "http://techtalks.tv/talks/lecture-64/61438/"
       Topics:
-        Exam Review:
+        Midterm Exam Review:
           Slides and Notes:
             - {Midterm Review: "docs/9.midterm-review.pdf"}
+    2015-04-02:
       Label: Lab
       Video: "http://techtalks.tv/talks/lecture-64/61440/"
       Topics:
-        Exam Review:
+        Midterm Exam Review:
 
 - Title: Week 10
   Events:
     2015-04-08:
       Label: Midterm Exam
       Topics: []
+    2015-04-09:
+      Label: Midterm Recap
+      Topics:
+        Midterm Recap:
+          Slides and Notes:
+            - {Midterm Recap: "docs/10.Lab.MidtermRecap.pdf"}
 
 - Title: Week 11
   Events:
@@ -268,6 +275,7 @@
   Events:
     2015-04-22:
       Label: Lecture
+      Video: http://techtalks.tv/talks/lecture-72/61451/
       Topics:
         Bayesian Methods:
           References (Supplemental):
@@ -280,99 +288,47 @@
 
     2015-04-23:
       Label: Lab
-      Topics: []
+      Video: "http://techtalks.tv/talks/lab-29/61453/"
+      Topics:
+        Beta-Binomial Model:
+        Naive Bayes:
+        Bag-of-Words (Bernoulli Version):
+          Slides and Notes:
+            - {Bayesian Review and Naive Bayes: "docs/12.Lab.bayesian-methods.pdf"}
 
 - Title: Week 13
   Events:
     2015-04-29:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-74/61456/"
       Topics:
         k-means Clustering:
         Gaussian Mixture Models:
-        Expectation Maximization Algorithm:
+        EM Algorithm (Introduction):
+          Slides and Notes:
+            - {k-means and Mixture Models: "docs/13.mixture-models.pdf"}
     2015-04-30:
       Label: Lab (Shanshan)
+      Video: "http://techtalks.tv/talks/lab-31/61457/"
       Topics:
         SVD, PCA, Linear Discriminant Analysis:
+          Slides and Notes:
+#            - {PCA, SVD, and Fisher's LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
+            - {PCA-SVD-LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
 
-# - Title: Week 8
-#   Events:
-#     2015-03-25:
-#       Label: Lecture
-#       Topics:
-#         Bayesian Networks:
-#           References (Supplemental):
-#             - "MJ Ch 2.1"
-#             - "KPM 10.1, 10.2.1-10.2.3"
-#         Bayes Net Inference:
-#           References (Supplemental):
-#             - "MJ Ch 3-3.1.2"
-#             - "KPM 10.3"
-#         Bayes Net Learning (Fully Observed Case):
-#           References (Supplemental):
-#             - "MJ Ch 9.1-9.2"
-#             - "KPM 10.4-10.4.2"
+- Title: Week 14
+  Events:
+    2015-05-06:
+      Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-77/61460/"
+      Topics:
+        Information Theory:
+          Slides and Notes:
+            - {Information Theory: "docs/14a.information-theory.pdf"}
+        EM Algorithm (General):
+          Slides and Notes:
+            - {EM Algorithm: "docs/14b.EM-algorithm.pdf"}
 
-#         Class Conditional Generative Models:
-#           References (Supplemental):
-#             - "MJ Ch 7"
-#         Exponential Families:
-#           References (Supplemental):
-#             - "MJ Ch 8.1"
-#         Generalized Linear Models:
-#           References (Supplemental):
-#             - "MJ Ch 8.2"
-#         Naive Bayes:
-
-
-
-
-
-
-#         Gaussian Mixture Model:
-#           References (Supplemental):
-#             - "MJ Ch 10.1"
-#         EM Algorithm:
-#           References (Supplemental):
-#             - "MJ Ch 11.1-11.3"
-
-# - Title: Week 10
-#   Events:
-#     2015-04-08:
-#       Label: Midterm Exam
-#       Topics:
-#         Covers all topics through Week 9:
-
-# - Title: Week 11
-#   Events:
-#     2015-04-15:
-#       Label: Lecture
-#       Topics:
-#         Structured Prediction:
-#         Multiclass Classification:
-#         Hidden Markov Model (Inference):
-#           References (Supplemental):
-#             - "MJ Ch 12-12.4,12.7"
-#         Hidden Markov Model (Estimation):
-#           References (Supplemental):
-#             - "MJ Ch 12.8"
-
-# - Title: Week 12
-#   Events:
-#     2015-02-25:
-#       Label: Lecture
-#       Topics:
-#         Bayesian Statistics:
-#           References (Supplemental):
-#             - "MJ Ch 5.1"
-#         Graphical Model Plates:
-#           References (Supplemental):
-#             - "MJ Ch 5.2"
-
-#        k-Nearest Neighbors:
-#          References (Supplemental):
-#            - "MJ Ch 7"
-#    2015-04-30:
-#      Label: Lab (Shanshan)
-#      Topics:
-#        SVD, PCA, Linear Discriminant Analysis:
+    2015-05-07:
+      Label: Project Adviser Meetings
+      Topics: []
