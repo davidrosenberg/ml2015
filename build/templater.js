@@ -1,3 +1,4 @@
+'use strict';
 const path = require('path');
 const yaml = require('js-yaml');
 const fs = require('fs');
@@ -12,7 +13,7 @@ const REFERENCES_SUPPLEMENTAL = 'References (Supplemental)';
 
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 
-export default function (input, output) {
+module.exports = (input, output) => {
     const handlebars = handlebarsFactory.create();
     registerHelpers(handlebars);
     registerPartials(handlebars);
@@ -20,7 +21,7 @@ export default function (input, output) {
     const template = compileTemplate(handlebars, input);
     const documents = parseDocuments();
     fs.writeFileSync(output, template(documents));
-}
+};
 
 // Uncomment to see documents; useful while tweaking the templates
 // console.log(require("util").inspect(documents, { depth: Infinity }));

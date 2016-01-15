@@ -1,4 +1,5 @@
-import templater from './build/templater.js';
+'use strict';
+const templater = require('./build/templater.js');
 const fs = require('fs');
 const gulp = require('gulp');
 const gutil = require('gulp-util');
