@@ -190,7 +190,7 @@
             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
             - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
           Slides and Notes:
-            - {Gradient Boosting: "docs/7a.gradient-boosting.pdf"}
+            - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Archive/2015/Lectures/7a.gradient-boosting.pdf"}
         Neural Networks:
           Slides and Notes:
             - {Neural Networks: "docs/7b.neural-networks.pdf"}
